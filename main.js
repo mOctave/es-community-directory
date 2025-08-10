@@ -230,7 +230,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/amazinite",
-		roles: ["Developer", "Lead Dev", "Discord Owner", "Bunrodea Lead"],
+		roles: ["Developer", "Lead Dev", "Discord Owner", "GitHub Admin", "Bunrodea Lead"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
 	},
@@ -240,14 +240,33 @@ const DIRECTORY = {
 		aka: {
 			discord: "Hecter72"
 		},
-		avatar: "https://avatars.githubusercontent.com/Hecter94",
+		avatar: "https://avatars.githubusercontent.com/u/15916854",
 		status: 0,
-		pronouns: "they/them",
-		country: "",
+		pronouns: "he/him",
+		country: "US",
 		github: "https://github.com/Hecter94",
-		roles: ["Community Organizer", "Oathkeeper"],
-		description: `Community organizer, GitHub moderator, and maintainer of the Endless Sky Plugin Archive. Most active on Discord.`,
-		quote: `"I wonder how much blood you'd actually need to write a document."`,
+		roles: ["Community Organizer", "GitHub Admin"],
+		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, plugin archive, and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up. Once described as "Friendly but vaguely threatening."`,
+		projects: [
+			{
+				name: "Plugin Archive",
+				type: "plugin",
+				url: "https://github.com/Hecter94/EndlessSky-PluginArchive",
+				important: true
+			},
+			{
+				name: "Stream Archive",
+				type: "other",
+				url: "https://www.youtube.com/@Endless-Sky_Stream-Archive",
+				important: true
+			},
+			{
+				name: "Community Survey",
+				type: "other",
+				url: "https://app.formbricks.com/s/k8nm3i2gcv39n6o8filp1cci",
+				important: false
+			}
+		]
 	},
 	// Hurleveur
 	hurleveur: {
@@ -286,7 +305,7 @@ const DIRECTORY = {
 		avatar: "https://avatars.githubusercontent.com/TheGiraffe3",
 		status: 0,
 		pronouns: "he/him",
-		country: "",
+		country: "SA",
 		github: "https://github.com/TheGiraffe3",
 		roles: ["Reviewer", "Writing Patrol", "Mission Patrol", "Omnis Lead"],
 		description: `Content reviewer who admires long mission chains and dislikes typos. Creator of possibly-unbalanced plugins.`,
@@ -458,7 +477,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/petervdmeer",
-		roles: ["Developer"],
+		roles: ["Developer", "GitHub Admin"],
 		description: `Code-focused dev who's usually more active on GitHub than on Discord. Creator of the Hauler VI and part of the reason why we now have Doxygen support we never use.`,
 		quote: `"Your hyperdrive doesn't work? Have you tried turning it off and on again?"`,
 	},
