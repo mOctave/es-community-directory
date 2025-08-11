@@ -141,8 +141,8 @@ const DIRECTORY = {
 		country: "BR",
 		github: "https://github.com/Arachi-Lover",
 		roles: ["Core Member"],
-		description: `Coalition stuff. Quarg too I guess. Also poems. And charts. Look at my charts, Mark.`,
-		quote: `"Arachi."`,
+		description: `Core member deeply involved with developing the Coalition and Quarg. Also the maintainer of height and population charts for various factions.`,
+		quote: `"Arachi. Also poems. And charts. Look at my charts, Mark."`,
 		projects: [
 			{
 				name: "LinearHPScaling",
