@@ -237,16 +237,15 @@ const DIRECTORY = {
 	// Hecter94
 	hecter94: {
 		name: "Hecter94",
-		aka: {
-			discord: "Hecter72"
-		},
+		aka: {},
 		avatar: "https://avatars.githubusercontent.com/u/15916854",
 		status: 0,
 		pronouns: "he/him",
 		country: "US",
 		github: "https://github.com/Hecter94",
 		roles: ["Community Organizer", "GitHub Admin"],
-		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, plugin archive, and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up. Once described as "Friendly but vaguely threatening."`,
+		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, plugin archive, and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
+		quote: `"Friendly but vaguely threatening."`,
 		projects: [
 			{
 				name: "Plugin Archive",

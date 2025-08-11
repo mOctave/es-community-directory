@@ -1,0 +1,73 @@
+name: Add Request
+description: Request to have yourself added to the directory.
+labels: [addreq]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for adding yourself to the directory! Please take the time to fill out all the fields to the best of your ability. I reserve the right to make minor changes but will try to consult you before doing anything too big. This issue will be closed once you are added to the directory. If you would like to make changes later, please open a generic issue.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: What's the main name people know you by in the Endless Sky Community?
+    validations:
+      required: true
+  - type: textarea
+    id: aka
+    attributes:
+      label: Also Known As...
+      description: Do you use another username when you interact with the ES community on Discord, GitHub, Reddit, or Steam? Add your other usernames here and be sure to clarify which is which.
+  - type: input
+    id: avatar
+    attributes:
+      label: Avatar
+      description: Please link to your avatar here. If you use an avatars.githubusercontent URL, it should automatically update when you change your GitHub avatar.
+      placeholder: https://avatars.githubusercontent.com/octocat
+    validations:
+      required: true
+# Hopefully whoever's submitting this is an active member.
+  - type: input
+    id: pronouns
+    attributes:
+      label: Pronouns
+      description: Add your prefered pronouns here or else leave this field blank to use the default "they/them.""
+      placeholder: they/them
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Add the country you live in here or else leave this field blank to use the default "Earth."
+      placeholder: Earth
+  - type: input
+    id: github-profile
+    attributes:
+      label: GitHub Profile
+      description: Please link to your GitHub profile here. If you don't interact with the community at all via GitHub, you can leave this blank to omit it from your card.
+      placeholder: https://github.com/octocat
+# Roles will be added by the site maintainer.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe your involvement in the ES Community.
+      value: Write a short description of your role in the community here. This is probably about as long as it should be, or else bits might get cut off, but there's no hard limit.
+    validations:
+      required: true
+  - type: input
+    id: quote
+    attributes:
+      label: Quote
+      description: Include a one-line quote that will be shown to people with large screens. Humour is good, just keep it safe for work.
+    validations:
+      required: true
+  - type: textarea
+    id: projects
+    attributes:
+      label: Projects
+      description: Have you made anything big as part of the ES community? Link it here.
+      value: |
+        Provide a name, URL, and type (plugin, fork, tool, document, or other) for each of your six most important projects, one per line in this space. The first three you have will be flagged as "important projects" to be shown even when there's limited space.
+
+        eg Endless Sky - https://github.com/endless-sky/endless-sky - fork
