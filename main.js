@@ -230,7 +230,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/amazinite",
-		roles: ["Developer", "Lead Dev", "Discord Owner", "GitHub Admin"],
+		roles: ["Developer", "Discord Admin", "GitHub Admin"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
 	},
@@ -365,7 +365,7 @@ const DIRECTORY = {
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/endless-sky",
-		roles: ["Original Developer", "GitHub Owner"],
+		roles: ["Original Developer", "GitHub Admin"],
 		description: `The original developer of Endless Sky, now sadly gone from the community to pursue a normal life without being chased by adoring fans (or having to handle hundreds of PRs).`,
 		quote: `"I hope you're enjoying the game!"`,
 		projects: [
