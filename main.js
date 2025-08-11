@@ -555,7 +555,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/Saugia",
 		roles: ["Developer", "Art Patrol"],
-		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, known for joining and then quickly leaving splinter servers.`,
+		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, now also doing a significant amount of content review and writing as well.`,
 		quote: `"Down with tangents, up with overlaps."`,
 	},
 	// tehhowch
@@ -690,12 +690,26 @@ const DIRECTORY = {
 		aka: {},
 		avatar: "https://avatars.githubusercontent.com/ziproot",
 		status: 0,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/ziproot",
 		roles: ["Core Member", "Oathkeeper"],
 		description: `GitHub moderator and creator of the Main Plot Plus plugin. Mostly active in #the-inner-circle.`,
 		quote: `"I finally got it to crash."`,
+		projects: [
+			{
+				name: "Main Plot Plus",
+				type: "plugin",
+				url: "https://github.com/ziproot/endless-sky-main-plot-plus",
+				important: true
+			},
+			{
+				name: "Gyrwyr Colonization",
+				type: "plugin",
+				url: "https://github.com/ziproot/gyrrwr-colonization",
+				important: true
+			}
+		]
 	},
 	// Zoura
 	zoura: {
