@@ -522,6 +522,40 @@ const DIRECTORY = {
 			}
 		]
 	},
+	// quyykk
+	quyykk: {
+		name: "quyykk",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/quyykk",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/quyykk",
+		roles: ["Developer", "Moderator"],
+		description: `Old code dev and creator of the modern plugin editor. Last seen early 2024, but technically still a Discord mod.`,
+		quote: `"My comment is nicer, take that."`,
+		projects: [
+			{
+				name: "Plugin Editor",
+				type: "tool",
+				url: "https://github.com/quyykk/plugin-editor",
+				important: true
+			},
+		]
+	},
+	// ravenshining
+	ravenshining: {
+		name: "ravenshining",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/ravenshining",
+		status: 2,
+		pronouns: "she/her",
+		country: "",
+		github: "https://github.com/ravenshining",
+		roles: ["Former Member"],
+		description: `Former Korath writer, artist, programmer, and sound editor. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
+		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`
+	},
 	// Roadrunner56
 	roadrunner56: {
 		name: "Roadrunner56",
@@ -592,27 +626,6 @@ const DIRECTORY = {
 			},
 		]
 	},
-	// quyykk
-	quyykk: {
-		name: "quyykk",
-		aka: {},
-		avatar: "https://avatars.githubusercontent.com/quyykk",
-		status: 2,
-		pronouns: "they/them",
-		country: "",
-		github: "https://github.com/quyykk",
-		roles: ["Developer", "Moderator"],
-		description: `Old code dev and creator of the modern plugin editor. Last seen early 2024, but technically still a Discord mod.`,
-		quote: `"My comment is nicer, take that."`,
-		projects: [
-			{
-				name: "Plugin Editor",
-				type: "tool",
-				url: "https://github.com/quyykk/plugin-editor",
-				important: true
-			},
-		]
-	},
 	// tibetiroka
 	tibetiroka: {
 		name: "tibetiroka",
@@ -642,6 +655,19 @@ const DIRECTORY = {
 		roles: ["Developer", "Code Patrol"],
 		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements despite never really touching the images.`,
 		quote: `"Yes."`,
+	},
+	// Unordered Sigh
+	unordered_sigh: {
+		name: "Unordered Sigh",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/UnorderedSigh",
+		status: 2,
+		pronouns: "she/her",
+		country: "",
+		github: "https://github.com/UnorderedSigh",
+		roles: ["Former Member"],
+		description: `Former C++ programmer involved in writing for the Korath. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
+		quote: `"I need one word or an idiom or a very few words."`
 	},
 	// Warlord Mike
 	warlord_mike: {
@@ -710,6 +736,19 @@ const DIRECTORY = {
 				important: true
 			}
 		]
+	},
+	// Zitchas
+	zitchas: {
+		name: "Zitchas",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/Zitchas",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/Zitchas",
+		roles: ["Core Member"],
+		description: `Former GitHub administrator and writer of Remnant content. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
+		quote: `"May the Embers burn bright for you."`
 	},
 	// Zoura
 	zoura: {

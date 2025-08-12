@@ -125,6 +125,8 @@ a:hover {
 
 .aka-labels {
 	font-style: italic;
+	white-space: nowrap;
+	overflow-x: scroll;
 }
 
 .aka-label {
