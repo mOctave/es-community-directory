@@ -413,7 +413,7 @@ const DIRECTORY = {
 	},
 	// Michael Zahniser
 	mz: {
-		name: "Michael Zahniser",
+		name: "Michael Zahniser (MZ)",
 		aka: {
 			github: "endless-sky"
 		},
@@ -863,6 +863,18 @@ const DIRECTORY = {
 	},
 }
 
+const NULL_CARD = {
+	name: "No Results Found",
+	aka: {},
+	avatar: "",
+	status: 0,
+	pronouns: "n/a",
+	country: "XX",
+	roles: ["???"],
+	description: `You have dredged the depths of space but your search has come up empty. Maybe the person you're looking for is in here under another name, or else they might not be in the directory at all.`,
+	quote: `"I have a pain in all the diodes down my left side."`,
+}
+
 
 
 // MARK: Global Variables
@@ -886,6 +898,10 @@ window.addEventListener("load", () => {
 
 document.getElementById("search-field").addEventListener("input", () => {
 	standardFilter.search_key = document.getElementById("search-field").value;
+});
+document.getElementById("search-field").addEventListener("keyup", ({key}) => {
+	if (key === "Enter")
+		loadDirectoryCards();
 });
 
 document.getElementById("search-mode").addEventListener("input", () => {
@@ -912,183 +928,194 @@ function loadDirectoryCards() {
 
 		noMatch = false;
 
-		let card = DIRECTORY[person].projects ? `${TEMPLATE}` : `${NO_PROJECT_TEMPLATE}`;
-
-		// ID
-		card = card.replaceAll("$ID$", person);
-
-
-		// Name
-		if (DIRECTORY[person].name) {
-			card = card.replaceAll("$NAME$", DIRECTORY[person].name);
-		} else {
-			console.warn(`No valid name for "${person}"...`);
-			card = card.replaceAll("$NAME$", "???");
-		}
-
-
-		// Avatar
-		if (DIRECTORY[person].avatar) {
-			card = card.replaceAll("$AVATAR$", DIRECTORY[person].avatar);
-		} else {
-			console.warn(`No valid avatar for "${person}"...`);
-			card = card.replaceAll("$AVATAR$", "https://placehold.net/7-800x600.png");
-		}
-
-
-		// Status
-		switch(DIRECTORY[person].status) {
-			case 0:
-				card = card.replaceAll("$STATUS-CLASS$", "active")
-					.replaceAll("$STATUS-DESC$", "Active")
-				break;
-			case 1:
-				card = card.replaceAll("$STATUS-CLASS$", "hiatus")
-					.replaceAll("$STATUS-DESC$", "On Hiatus")
-				break;
-			case 2:
-				card = card.replaceAll("$STATUS-CLASS$", "old-member")
-					.replaceAll("$STATUS-DESC$", "Old Member")
-				break;
-			default:
-				console.warn(`No valid status for "${person}"...`);
-				card = card.replaceAll("$STATUS-DESC$", "Unknown")
-		}
-
-
-		// Pronouns
-		if (DIRECTORY[person].pronouns) {
-			card = card.replaceAll("$PRONOUNS$", DIRECTORY[person].pronouns);
-		} else {
-			console.warn(`No valid pronouns for "${person}"...`);
-			card = card.replaceAll("$PRONOUNS$", "they/them");
-		}
-
-
-		// Country
-		try {
-			const countryName = COUNTRY_FINDER.of(DIRECTORY[person].country.toUpperCase());
-			const flag = Array.from(DIRECTORY[person].country.toUpperCase())
-				.map(char => String.fromCodePoint(char.charCodeAt(0) + 127397)).join("");
-
-			card = card.replaceAll("$COUNTRY$", `${flag} ${countryName}`);
-		} catch (e) {
-			if (DIRECTORY[person].country)
-				console.warn(e);
-
-			card = card.replaceAll("$COUNTRY$", `🌎 Earth`);
-		}
-
-
-		// GitHub Link
-		if (DIRECTORY[person].github) {
-			card = card.replaceAll(
-				"$GITHUB$",
-				`<a href="${DIRECTORY[person].github}">GitHub <span class="fa-solid fa-arrow-up-right-from-square"></span></a>`
-			);
-		} else {
-			card = card.replaceAll("$GITHUB$", "");
-		}
-
-		// AKA Labels
-		try {
-			let akaLabels = "";
-
-			if (DIRECTORY[person].aka.name) {
-				akaLabels += `<span class="aka-label"><span class="fa-solid fa-user"></span>&nbsp;${DIRECTORY[person].aka.name}</span>`;
-			}
-
-			if (DIRECTORY[person].aka.discord) {
-				akaLabels += `<span class="aka-label"><span class="fa-brands fa-discord"></span>&nbsp;${DIRECTORY[person].aka.discord}</span>`;
-			}
-
-			if (DIRECTORY[person].aka.github) {
-				akaLabels += `<span class="aka-label"><span class="fa-brands fa-github"></span>&nbsp;${DIRECTORY[person].aka.github}</span>`;
-			}
-
-			if (DIRECTORY[person].aka.reddit) {
-				akaLabels += `<span class="aka-label"><span class="fa-brands fa-reddit"></span>&nbsp;${DIRECTORY[person].aka.reddit}</span>`;
-			}
-
-			if (DIRECTORY[person].aka.steam) {
-				akaLabels += `<span class="aka-label"><span class="fa-brands fa-steam"></span>&nbsp;${DIRECTORY[person].aka.steam}</span>`;
-			}
-		
-			card = card.replaceAll("$AKA-LABELS$", akaLabels);
-
-		} catch {
-			console.warn(`Missing "aka" section for "${person}"...`);
-			card = card.replaceAll("$AKA-LABELS$", "");
-		}
-
-
-		// Roles
-		if (DIRECTORY[person].roles) {
-			let noRoleAdded = true;
-			let roleDesc = "";
-			for (role of DIRECTORY[person].roles) {
-				const roleClass = chooseRoleClass(role);
-				if (!noRoleAdded)
-					roleDesc += " • ";
-
-				roleDesc += `<span class="${roleClass}">${role}</span>`;
-				noRoleAdded = false;
-			}
-			card = card.replaceAll("$ROLES$", roleDesc);
-		} else {
-			console.warn(`No valid roles for "${person}"...`);
-			card = card.replaceAll("$ROLES$", "");
-		}
-
-		
-		// Description
-		if (DIRECTORY[person].description) {
-			card = card.replaceAll("$DESCRIPTION$", DIRECTORY[person].description);
-		} else {
-			console.warn(`No valid description for "${person}"...`);
-			card = card.replaceAll("$DESCRIPTION$", "A member of the Endless Sky community.");
-		}
-
-		
-		// Quote
-		if (DIRECTORY[person].quote) {
-			card = card.replaceAll("$QUOTE$", DIRECTORY[person].quote);
-		} else {
-			console.warn(`No valid quote for "${person}"...`);
-			card = card.replaceAll("$QUOTE$", "\"There's nothing to see here.\"");
-		}
-
-		// Projects
-		try {
-			if (DIRECTORY[person].projects) {
-				let noImportantsAdded = true;
-				let allProjects = "";
-				let importantProjects = "";
-				for (project of DIRECTORY[person].projects) {
-					const icon = chooseIcon(project.type);
-					allProjects += `<div class="project"><a href="${project.url}">${icon} ${project.name}</a></div>`;
-					if (project.important) {
-						if (!noImportantsAdded)
-							importantProjects += " • ";
-
-						importantProjects += `<span class="project"><a href="${project.url}">${project.name}</a></span>`;
-						noImportantsAdded = false;
-					}
-				}
-				card = card.replaceAll("$PROJECTS$", allProjects)
-					.replaceAll("$IMPORTANT-PROJECTS$", importantProjects);
-			}
-		} catch (e) {
-			console.error(e);
-		}
-
-		document.getElementById("card-container").innerHTML += card;
+		document.getElementById("card-container").innerHTML += makeDirectoryCard(DIRECTORY[person], person);
 	}
 
 	if (noMatch) {
-		document.getElementById("card-container").innerHTML +=
-		`<div id="nocard">There are no cards to display here!</div>`
+		document.getElementById("card-container").innerHTML += makeDirectoryCard(NULL_CARD, "null");
 	}
+}
+
+
+
+function makeDirectoryCard(obj, id) {
+	let card = obj.projects ? `${TEMPLATE}` : `${NO_PROJECT_TEMPLATE}`;
+
+	// ID
+	card = card.replaceAll("$ID$", person);
+
+
+	// Name
+	if (obj.name) {
+		card = card.replaceAll("$NAME$", obj.name);
+	} else {
+		console.warn(`No valid name for "${id}"...`);
+		card = card.replaceAll("$NAME$", "???");
+	}
+
+
+	// Avatar
+	if (obj.avatar) {
+		card = card.replaceAll("$AVATAR$", obj.avatar);
+	} else {
+		console.warn(`No valid avatar for "${id}"...`);
+		card = card.replaceAll("$AVATAR$", "https://placehold.net/7-800x600.png");
+	}
+
+
+	// Status
+	switch(obj.status) {
+		case 0:
+			card = card.replaceAll("$STATUS-CLASS$", "active")
+				.replaceAll("$STATUS-DESC$", "Active")
+			break;
+		case 1:
+			card = card.replaceAll("$STATUS-CLASS$", "hiatus")
+				.replaceAll("$STATUS-DESC$", "On Hiatus")
+			break;
+		case 2:
+			card = card.replaceAll("$STATUS-CLASS$", "old-member")
+				.replaceAll("$STATUS-DESC$", "Old Member")
+			break;
+		default:
+			console.warn(`No valid status for "${id}"...`);
+			card = card.replaceAll("$STATUS-DESC$", "Unknown")
+	}
+
+
+	// Pronouns
+	if (obj.pronouns) {
+		card = card.replaceAll("$PRONOUNS$", obj.pronouns);
+	} else {
+		console.warn(`No valid pronouns for "${id}"...`);
+		card = card.replaceAll("$PRONOUNS$", "they/them");
+	}
+
+
+	// Country
+	try {
+		const countryName = COUNTRY_FINDER.of(obj.country.toUpperCase());
+
+		if (countryName === "XX") {
+			card = card.replaceAll("$COUNTRY$", `🏴‍☠️ Nowhere`);
+		} else {
+			const flag = Array.from(obj.country.toUpperCase())
+				.map(char => String.fromCodePoint(char.charCodeAt(0) + 127397)).join("");
+
+			card = card.replaceAll("$COUNTRY$", `${flag} ${countryName}`);
+		}
+	} catch (e) {
+		if (obj.country)
+			console.warn(e);
+
+		card = card.replaceAll("$COUNTRY$", `🌎 Earth`);
+	}
+
+
+	// GitHub Link
+	if (obj.github) {
+		card = card.replaceAll(
+			"$GITHUB$",
+			`<a href="${obj.github}">GitHub <span class="fa-solid fa-arrow-up-right-from-square"></span></a>`
+		);
+	} else {
+		card = card.replaceAll("$GITHUB$", "");
+	}
+
+
+	// AKA Labels
+	try {
+		let akaLabels = "";
+
+		if (obj.aka.name) {
+			akaLabels += `<span class="aka-label"><span class="fa-solid fa-user"></span>&nbsp;${obj.aka.name}</span>`;
+		}
+
+		if (obj.aka.discord) {
+			akaLabels += `<span class="aka-label"><span class="fa-brands fa-discord"></span>&nbsp;${obj.aka.discord}</span>`;
+		}
+
+		if (obj.aka.github) {
+			akaLabels += `<span class="aka-label"><span class="fa-brands fa-github"></span>&nbsp;${obj.aka.github}</span>`;
+		}
+
+		if (obj.aka.reddit) {
+			akaLabels += `<span class="aka-label"><span class="fa-brands fa-reddit"></span>&nbsp;${obj.aka.reddit}</span>`;
+		}
+
+		if (obj.aka.steam) {
+			akaLabels += `<span class="aka-label"><span class="fa-brands fa-steam"></span>&nbsp;${obj.aka.steam}</span>`;
+		}
+		
+		card = card.replaceAll("$AKA-LABELS$", akaLabels);
+
+	} catch {
+		card = card.replaceAll("$AKA-LABELS$", "");
+	}
+
+
+	// Roles
+	if (obj.roles) {
+		let noRoleAdded = true;
+		let roleDesc = "";
+		for (role of obj.roles) {
+			const roleClass = chooseRoleClass(role);
+			if (!noRoleAdded)
+				roleDesc += " • ";
+
+			roleDesc += `<span class="${roleClass}">${role}</span>`;
+			noRoleAdded = false;
+		}
+		card = card.replaceAll("$ROLES$", roleDesc);
+	} else {
+		console.warn(`No valid roles for "${id}"...`);
+		card = card.replaceAll("$ROLES$", "");
+	}
+
+
+	// Description
+	if (obj.description) {
+		card = card.replaceAll("$DESCRIPTION$", obj.description);
+	} else {
+		console.warn(`No valid description for "${id}"...`);
+		card = card.replaceAll("$DESCRIPTION$", "A member of the Endless Sky community.");
+	}
+		
+
+	// Quote
+	if (obj.quote) {
+		card = card.replaceAll("$QUOTE$", obj.quote);
+	} else {
+		console.warn(`No valid quote for "${id}"...`);
+		card = card.replaceAll("$QUOTE$", "\"There's nothing to see here.\"");
+	}
+
+
+	// Projects
+	try {
+		if (obj.projects) {
+			let noImportantsAdded = true;
+			let allProjects = "";
+			let importantProjects = "";
+			for (project of obj.projects) {
+				const icon = chooseIcon(obj.type);
+				allProjects += `<div class="project"><a href="${project.url}">${icon} ${project.name}</a></div>`;
+				if (project.important) {
+					if (!noImportantsAdded)
+						importantProjects += " • ";
+
+					importantProjects += `<span class="project"><a href="${project.url}">${project.name}</a></span>`;
+					noImportantsAdded = false;
+				}
+			}
+			card = card.replaceAll("$PROJECTS$", allProjects)
+				.replaceAll("$IMPORTANT-PROJECTS$", importantProjects);
+		}
+	} catch (e) {
+		console.error(e);
+	}
+
+	return card;
 }
 
 
