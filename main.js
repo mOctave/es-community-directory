@@ -675,6 +675,19 @@ const DIRECTORY = {
 		description: `Old code dev who vanished in 2022, but who still has (briefly) more commits to the GitHub repository than anyone else ever. One of the original three people MZ gave repository write access to.`,
 		quote: `"The heavy rockets usually spell the end for Captain Nate."`,
 	},
+	// Terin
+	terin: {
+		name: "Terin",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/Terin",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/Terin",
+		roles: ["Reviewer", "Mission Patrol"],
+		description: `Old content reviewer who hasn't really been active since 2023 but sometimes shows up for a couple weeks on the Discord server. One of the only members of the community without any sort of avatar.`,
+		quote: `"Can't let mantises just sprint through the ship at full speed."`,
+	},
 	// TheMarksman
 	themarksman: {
 		name: "TheMarksman",
