@@ -264,6 +264,19 @@ const DIRECTORY = {
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
 	},
+	// EjoThims
+	ejothims: {
+		name: "EjoThims",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/EjoThims",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/EjoThims",
+		roles: ["Writing Patrol", "Theme Patrol"],
+		description: `One of the original writing reviewers and the creator of a couple of minor plugins. Unfortunately hasn't been seen at all in the community since mid-2024.`,
+		quote: `"Anyone can review a pull request, even you!"`,
+	},
 	// Gefüllte Taubenbrust
 	gefullte_taubenbrust: {
 		name: "Gefüllte Taubenbrust",
@@ -394,7 +407,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/MasterOfGrey",
-		roles: ["Community Organizer", "Moderator"],
+		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
 		description: `Generally inactive community organizer involved with work on the Hai and leading the bording rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
 	},
@@ -600,6 +613,19 @@ const DIRECTORY = {
 		description: `Former Korath writer who also created artwork, did some sound editing, and wrote a little bit of C++ code on the side. Has left the community but can occasionally still be found on Swizzle Six.`,
 		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`
 	},
+	// reticent-rem
+	reticent_rem: {
+		name: "reticent-rem",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/reticent-rem",
+		status: 0,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/reticent-rem",
+		roles: ["Reviewer", "Writing Patrol"],
+		description: `A newer writing reviewer who is also responsible for the creation of a number of culture conversations, bug fixes, and the Syndicate business mission chain.`,
+		quote: `"I like pea soup as a nice, light springtime dish."`,
+	},
 	// Roadrunner56
 	roadrunner56: {
 		name: "Roadrunner56",
@@ -648,6 +674,19 @@ const DIRECTORY = {
 		roles: ["Developer"],
 		description: `Old code dev who vanished in 2022, but who still has (briefly) more commits to the GitHub repository than anyone else ever. One of the original three people MZ gave repository write access to.`,
 		quote: `"The heavy rockets usually spell the end for Captain Nate."`,
+	},
+	// TheMarksman
+	themarksman: {
+		name: "TheMarksman",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/TheMarksman-ES",
+		status: 1,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/TheMarksman-ES",
+		roles: ["Reviewer", "Writing Patrol"],
+		description: `Writing reviewer and major contributor to Navy content. Mostly inactive these days, but shows up every once in a while on Discord.`,
+		quote: `"The number of times someone breaks the fourth wall, it's mind-boggling!"`,
 	},
 	// thewierdnut
 	thewierdnut: {
@@ -790,7 +829,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Zitchas",
-		roles: ["Core Member"],
+		roles: ["Core Member", "Theme Patrol"],
 		description: `Former GitHub administrator and writer of Remnant content, and one of only four people with more than 400 commits to the GitHub repo. Left the community but can still occasionally be found on Swizzle Six.`,
 		quote: `"May the Embers burn bright for you."`
 	},
