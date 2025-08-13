@@ -32,6 +32,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		// on which you actually interact with the ES community.
 		// Recommended maximum of two short usernames or one long one.
 		aka: {
+			name: "IRL Name",
 			discord: "Discord Name",
 			github: "GitHub Name",
 			reddit: "Reddit Name",

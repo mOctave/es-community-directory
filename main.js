@@ -71,6 +71,7 @@ const DIRECTORY = {
 		// on which you actually interact with the ES community.
 		// Recommended maximum of two short usernames or one long one.
 		aka: {
+			name: "IRL Name",
 			discord: "Discord Name",
 			github: "GitHub Name",
 			reddit: "Reddit Name",
@@ -178,6 +179,22 @@ const DIRECTORY = {
 		description: `Realism addict who adores the colour blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
 		quote: `"List me down as an Arachi alt."`,
 	},
+	// beccabunny
+	beccabunny: {
+		name: "beccabunny",
+		aka: {
+			discord: "b... mia b...",
+			name: "Becca Tommaso"
+		},
+		avatar: "https://cdn.discordapp.com/avatars/518816661693005826/59fdd3ab7a3fa19e24ecc496ea9150b0",
+		status: 0,
+		pronouns: "he/him",
+		country: "IT",
+		github: "https://github.com/beccabunny",
+		roles: ["Reviewer", "Art Patrol"],
+		description: `Artist who also does content creation for the Builders and the Ka'het. Also happens to be the namesake of one of the oddest person ships in the game.`,
+		quote: `"I'm just a normal minor planet trying its best to ignore the law of gravity."`,
+	},
 	// bene_dictator
 	bene_dictator: {
 		name: "bene_dictator",
@@ -190,6 +207,19 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Oathkeeper", "Writing Patrol"],
 		description: `The current longest-active writing reviewer and one of the GitHub organization's moderators. Not too active on GitHub anymore, although they tend to show up every once in a while on the Discord server.`,
 		quote: `"I was requested for spelling? Oh my goodness, this needs a rewrite..."`,
+	},
+	// Daeridanii
+	daeridanii: {
+		name: "Daeridanii",
+		aka: {},
+		avatar: "https://cdn.discordapp.com/avatars/304361755516076034/a71877169b173e64db312db95e17cf2c",
+		status: 1,
+		pronouns: "she/her",
+		country: "US",
+		github: "https://github.com/Daeridanii1",
+		roles: ["Reviewer", "Art Patrol"],
+		description: `3D modeller and creator of the Successors, as well as the DAIS ship plugin. Hasn't been all that active lately.`,
+		quote: `"Endless quantities of digital spaceship."`,
 	},
 	// Delvin Anaris
 	delvin_anaris: {
@@ -233,6 +263,20 @@ const DIRECTORY = {
 		roles: ["Developer", "Discord Admin", "GitHub Admin"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
+	},
+	// Gefüllte Taubenbrust
+	gefullte_taubenbrust: {
+		name: "Gefüllte Taubenbrust",
+		aka: {
+		},
+		avatar: "https://cdn.discordapp.com/avatars/314807527374061569/8ec1541bb938ca320832601eba405e64",
+		status: 0,
+		pronouns: "they/them",
+		country: "DE",
+		github: "https://github.com/GefullteTaubenbrust2",
+		roles: ["Reviewer", "Art Patrol"],
+		description: `Art reviewer and 3D modeller responsible for the creation of the new Navy ship designs.`,
+		quote: `"I am fueling your nightmares."`,
 	},
 	// Hecter94
 	hecter94: {
@@ -897,6 +941,10 @@ function loadDirectoryCards() {
 		// AKA Labels
 		try {
 			let akaLabels = "";
+
+			if (DIRECTORY[person].aka.name) {
+				akaLabels += `<span class="aka-label"><span class="fa-solid fa-user"></span>&nbsp;${DIRECTORY[person].aka.name}</span>`;
+			}
 
 			if (DIRECTORY[person].aka.discord) {
 				akaLabels += `<span class="aka-label"><span class="fa-brands fa-discord"></span>&nbsp;${DIRECTORY[person].aka.discord}</span>`;
