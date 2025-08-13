@@ -133,71 +133,6 @@ a:hover {
 	margin-right: 20px;
 }
 
-.developer {
-	color: rgb(230, 126, 35);
-}
-
-.community-organizer {
-	color: rgb(235, 161, 24);
-}
-
-.moderator {
-	color: rgb(238, 194, 14);
-}
-
-.reviewer {
-	color: rgb(233, 30, 99);
-}
-
-.core-member {
-	color: rgb(181, 81, 254);
-}
-
-.privateer-potato {
-	color: rgb(201, 168, 126);
-}
-
-.privateer {
-	color: rgb(120, 167, 202);
-}
-
-.merchant {
-	color: rgb(52, 152, 219);
-}
-
-
-.code-patrol {
-	color: rgb(255, 153, 59);
-}
-
-.art-patrol {
-	color: rgb(56, 139, 18);
-}
-
-.writing-patrol {
-	color: rgb(73, 150, 232);
-}
-
-.theme-patrol {
-	color: rgb(181, 149, 21);
-}
-
-.balance-patrol {
-	color: rgb(203, 23, 200);
-}
-
-.mission-patrol {
-	color: rgb(21, 181, 138);
-}
-
-.oathkeeper {
-	color: rgb(203, 74, 23);
-}
-
-.other-role {
-	color: #eee;
-}
-
 .projects {
 	border: 2px solid #666;
 	float: right;
@@ -342,4 +277,78 @@ MARK: Search and Filtering
 	height: 30px;
 	padding: 5px;
 	background-color: #ccc;
+}
+
+
+/* 
+MARK: Role Colours
+*/
+
+.developer {
+	color: rgb(230, 126, 35);
+}
+
+.community-organizer {
+	color: rgb(235, 161, 24);
+}
+
+.moderator {
+	color: rgb(238, 194, 14);
+}
+
+.reviewer {
+	color: rgb(233, 30, 99);
+}
+
+.core-member {
+	color: rgb(181, 81, 254);
+}
+
+.privateer-potato {
+	color: rgb(201, 168, 126);
+}
+
+.privateer {
+	color: rgb(120, 167, 202);
+}
+
+.merchant {
+	color: rgb(52, 152, 219);
+}
+
+
+.maintainer {
+	color: #999;
+}
+
+.oathkeeper {
+	color: rgb(203, 74, 23);
+}
+
+.code-patrol {
+	color: rgb(255, 153, 59);
+}
+
+.art-patrol {
+	color: rgb(56, 139, 18);
+}
+
+.writing-patrol {
+	color: rgb(73, 150, 232);
+}
+
+.theme-patrol {
+	color: rgb(181, 149, 21);
+}
+
+.balance-patrol {
+	color: rgb(203, 23, 200);
+}
+
+.mission-patrol {
+	color: rgb(21, 181, 138);
+}
+
+.other-role {
+	color: #eee;
 }

@@ -116,6 +116,19 @@ const DIRECTORY = {
 			}
 		]
 	},
+	// 1010todd
+	_1010todd: {
+		name: "1010todd",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/1010todd",
+		status: 0,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/1010todd",
+		roles: ["Core Member"],
+		description: `Plugin author known for Mega Freight and Galactic War. Also responsible for creating a number of models for the vanilla game.`,
+		quote: `"Now try to dominate the Republic a year post-FW."`,
+	},
 	// Anarchist2
 	anarchist2: {
 		name: "Anarchist2",
@@ -124,7 +137,7 @@ const DIRECTORY = {
 		pronouns: "she/her",
 		country: "",
 		github: "https://github.com/Anarchist2",
-		roles: ["Developer"],
+		roles: ["Developer", "Maintainer"],
 		description: `Developer who shows up on Discord approximately once every two days. Generally focused on writing content, but also the author of several code and artwork PRs.`,
 		quote: `"All rocket engines are pipes."`,
 	},
@@ -208,6 +221,19 @@ const DIRECTORY = {
 		description: `The current longest-active writing reviewer and one of the GitHub organization's moderators. Not too active on GitHub anymore, although they tend to show up every once in a while on the Discord server.`,
 		quote: `"I was requested for spelling? Oh my goodness, this needs a rewrite..."`,
 	},
+	// Corraban
+	corraban: {
+		name: "Corraban",
+		aka: {},
+		avatar: "https://cdn.discordapp.com/avatars/583093228530827296/98d664350aa49904df0ac734448b6d87",
+		status: 0,
+		pronouns: "they/them",
+		country: "",
+		github: "",
+		roles: ["Core Member", "Wiki Admin"],
+		description: `Primary admin of the Fandom wiki for ES. Rarely says much on Discord, but is still quietly active in the background keeping the wiki up to date.`,
+		quote: `"I like dodging the Archon."`,
+	},
 	// Daeridanii
 	daeridanii: {
 		name: "Daeridanii",
@@ -276,6 +302,19 @@ const DIRECTORY = {
 		roles: ["Writing Patrol", "Theme Patrol"],
 		description: `One of the original writing reviewers and the creator of a couple of minor plugins. Unfortunately hasn't been seen at all in the community since mid-2024.`,
 		quote: `"Anyone can review a pull request, even you!"`,
+	},
+	// Ferociousfeind
+	ferociousfeind: {
+		name: "Ferociousfeind",
+		aka: {},
+		avatar: "https://cdn.discordapp.com/avatars/532596743976779783/29f852b58ab94cb065555b5ef7472ef2",
+		status: 0,
+		pronouns: "he/him",
+		country: "",
+		github: "https://github.com/Ferociousfeind",
+		roles: ["Core Member"],
+		description: `Core member and one of the only people who really understands the heat and energy systems of ES. Primarily active on Discord.`,
+		quote: `"Color me frangleborfed."`,
 	},
 	// Gefüllte Taubenbrust
 	gefullte_taubenbrust: {
@@ -350,6 +389,21 @@ const DIRECTORY = {
 		description: `Newer code reviewer responsible for variable swizzles and around fifty bugfixes.`,
 		quote: `"Falling off the bottom of the Earth."`,
 	},
+	// Lake
+	lake: {
+		name: "Lake",
+		aka: {
+			github: "Galaucus"
+		},
+		avatar: "https://avatars.githubusercontent.com/Galaucus",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/Galaucus",
+		roles: ["Core Member"],
+		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in Feburary 2025 after a long period of inactivity.`,
+		quote: `"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag."`,
+	},
 	// Loymdayddaud
 	loymdayddaud: {
 		name: "Loymdayddaud",
@@ -410,6 +464,19 @@ const DIRECTORY = {
 		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
 		description: `Generally inactive community organizer involved with work on the Hai and leading the bording rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
+	},
+	// MidnightPlugins
+	midnightplugins: {
+		name: "MidnightPlugins",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/MidnightPlugins",
+		status: 0,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/MidnightPlugins",
+		roles: ["Core Member"],
+		description: `Plugin author who created the aptly named Lost in Midnight, Midnight Scrapyard, and Midnight Expansion plugins, as well as a number of others.`,
+		quote: `"I only support stable releases."`,
 	},
 	// Michael Zahniser
 	mz: {
@@ -561,7 +628,7 @@ const DIRECTORY = {
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/Quantumshark",
-		roles: ["Developer", "Balance Patrol"],
+		roles: ["Developer", "Maintainer", "Balance Patrol"],
 		description: `Developer since 2023. Focusing primarily on balance and content. Responsible for the mass rebalance and hopefully eventually for the end of the Wanderer campaign.`,
 		quote: `"Yeah, a lot of missiles could probably do with a nerf."`,
 		projects: [
@@ -626,6 +693,19 @@ const DIRECTORY = {
 		description: `A newer writing reviewer who is also responsible for the creation of a number of culture conversations, bug fixes, and the Syndicate business mission chain.`,
 		quote: `"I like pea soup as a nice, light springtime dish."`,
 	},
+	// RisingLeaf
+	risingleaf: {
+		name: "RisingLeaf",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/RisingLeaf",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/RisingLeaf",
+		roles: ["Former Member"],
+		description: `Former code reviewer and C++ programmer who is also the creator of the Incipias. Left the community in September 2024.`,
+		quote: `"We make ES so performant that no one notices that 80% of it is crypto mining."`,
+	},
 	// Roadrunner56
 	roadrunner56: {
 		name: "Roadrunner56",
@@ -636,7 +716,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "CA",
 		github: "https://github.com/Roadrunner56",
-		roles: ["Developer", "Writing Patrol"],
+		roles: ["Developer", "Maintainer", "Writing Patrol"],
 		description: `Mainly focuses on writing PRs and projects. Currently trying to flesh out the plot structure for the Republic campaign. Will one day finish the Bashkmul.`,
 		quote: `"More semicolons!"`,
 		projects: [
@@ -648,6 +728,19 @@ const DIRECTORY = {
 			},
 		]
 	},
+	// samrocketman
+	samrocketman: {
+		name: "samrocketman",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/samrocketman",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/samrocketman",
+		roles: ["Core Member"],
+		description: `C++ programmer responsible for a number of bugfixes and the ability to disable plugins in-game. Was also heavily involved in trying to improve the music system. No longer active on GitHub, but occasionally shows up on Discord.`,
+		quote: `"Always visit spaceport as you travel."`,
+	},
 	// Saugia
 	saugia: {
 		name: "Saugia",
@@ -658,9 +751,22 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Saugia",
-		roles: ["Developer", "Art Patrol"],
+		roles: ["Developer", "Maintainer", "Art Patrol"],
 		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, now also doing a significant amount of content review and writing as well.`,
 		quote: `"Down with tangents, up with overlaps."`,
+	},
+	// Tadrix
+	tadrix: {
+		name: "Tadrix",
+		aka: {},
+		avatar: "https://cdn.discordapp.com/avatars/289114143544311808/4666617d04e28f785203dfd39be4a326",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/Tadrix",
+		roles: ["Privateer"],
+		description: `Old guard community member who hasn't really been active since 2019, with one exception. Remains the de facto leader of the ES Mafia community.`,
+		quote: `"If afterlife exists, then the only thing of mine still growing after my death will be the contempt for the living."`,
 	},
 	// tehhowch
 	tehhowch: {
@@ -733,7 +839,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/tibetiroka",
-		roles: ["Developer", "Code Patrol", "Writing Patrol"],
+		roles: ["Developer", "Maintainer", "Code Patrol", "Writing Patrol"],
 		description: `Developer, code and writing reviewer, and CI/CD master. Has recently been foolishly touching images.`,
 		quote: `"It's just the Steam CI, no need to panic."`,
 	},
@@ -748,7 +854,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/tibetiroka",
-		roles: ["Developer", "Code Patrol"],
+		roles: ["Developer", "Maintainer", "Code Patrol"],
 		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements despite never really touching the images.`,
 		quote: `"Yes."`,
 	},
@@ -789,7 +895,7 @@ const DIRECTORY = {
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/warp-core",
-		roles: ["Developer", "Moderator"],
+		roles: ["Developer", "Moderator", "Maintainer"],
 		description: `The last remaining code dev who was active in 2016. Maintains 90% of the miscellaneous code stuff everyone else is too lazy to deal with, and hides from the Discord server in #the-inner-circle.`,
 		quote: `"It's true. The warp core is a fictional device."`,
 	},
@@ -1225,6 +1331,10 @@ function chooseRoleClass(role) {
 			return "discord-role merchant";
 		case "Community Organizer":
 			return "discord-role community-organizer";
+		case "Maintainer":
+			return "github-role maintainer";
+		case "Oathkeeper":
+			return "github-role oathkeeper";
 		case "Code Patrol":
 			return "github-role code-patrol";
 		case "Art Patrol":
@@ -1237,8 +1347,6 @@ function chooseRoleClass(role) {
 			return "github-role balance-patrol";
 		case "Mission Patrol":
 			return "github-role mission-patrol";
-		case "Oathkeeper":
-			return "github-role oathkeeper";
 		default:
 			return "other-role";
 	}
