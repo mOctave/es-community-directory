@@ -553,7 +553,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/ravenshining",
 		roles: ["Former Member"],
-		description: `Former Korath writer, artist, programmer, and sound editor. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
+		description: `Former Korath writer who also created artwork, did some sound editing, and wrote a little bit of C++ code on the side. Has left the community but can occasionally still be found on Swizzle Six.`,
 		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`
 	},
 	// Roadrunner56
@@ -666,8 +666,8 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/UnorderedSigh",
 		roles: ["Former Member"],
-		description: `Former C++ programmer involved in writing for the Korath. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
-		quote: `"I need one word or an idiom or a very few words."`
+		description: `Former C++ and Java programmer involved in writing for the Korath. Has left the community but can occasionally still be found on Swizzle Six alongside her improved version of James.`,
+		quote: `"I need one word or an idiom or a very few words."`,
 	},
 	// Warlord Mike
 	warlord_mike: {
@@ -747,7 +747,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/Zitchas",
 		roles: ["Core Member"],
-		description: `Former GitHub administrator and writer of Remnant content. Left the community after longstanding disagreements with the developer team, but can still occasionally be found on Swizzle Six.`,
+		description: `Former GitHub administrator and writer of Remnant content, and one of only four people with more than 400 commits to the GitHub repo. Left the community but can still occasionally be found on Swizzle Six.`,
 		quote: `"May the Embers burn bright for you."`
 	},
 	// Zoura
