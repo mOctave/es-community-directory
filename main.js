@@ -189,11 +189,10 @@ const DIRECTORY = {
 	// Azure
 	azure: {
 		name: "Azure",
-		aka: {
-		},
+		aka: {},
 		avatar: "https://avatars.githubusercontent.com/azure3141",
 		status: 0,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/azure3141",
 		roles: ["Core Member"],
@@ -263,7 +262,7 @@ const DIRECTORY = {
 		},
 		avatar: "https://avatars.githubusercontent.com/danaris",
 		status: 0,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/danaris",
 		roles: ["Core Member", "Oathkeeper"],
@@ -276,7 +275,7 @@ const DIRECTORY = {
 		aka: {},
 		avatar: "https://avatars.githubusercontent.com/DarcyManoel",
 		status: 0,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "AU",
 		github: "https://github.com/DarcyManoel",
 		roles: ["Moderator"],
