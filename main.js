@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 // MARK: Templates
 const TEMPLATE = `
 <div id="$ID$" class="card">
-	<div class="left-bar">
+	<div class="left-panel">
 		<img src="$AVATAR$" alt="$NAME$'s Profile Picture" class="avatar"/>
 		<div class="$STATUS-CLASS$">$STATUS-DESC$</div>
 		<div>$PRONOUNS$</div>
@@ -30,31 +30,39 @@ const TEMPLATE = `
 		<div class="project-header">Projects:</div>
 		$PROJECTS$
 	</div>
-	<h2 class="name-label">$NAME$</h2>
-	<div class="aka-labels">$AKA-LABELS$</div>
-	<div class="roles">$ROLES$</div>
-	<hr/>
-	<div class="description">$DESCRIPTION$</div>
-	<div class="quote">$QUOTE$</div>
-	<div class="projects-lower">$IMPORTANT-PROJECTS$</div>
+	<div class="centre-panel">
+		<h2 class="name-label">$NAME$</h2>
+		<div class="aka-labels">$AKA-LABELS$</div>
+		<div class="roles">$ROLES$</div>
+		<hr/>
+		<div class="card-body">
+			<div class="description">$DESCRIPTION$</div>
+			<div class="quote">$QUOTE$</div>
+			<div class="projects-lower">$IMPORTANT-PROJECTS$</div>
+		</div>
+	</div>
 </div>
 `
 
 const NO_PROJECT_TEMPLATE = `
 <div id="$ID$" class="card">
-	<div class="left-bar">
+	<div class="left-panel">
 		<img src="$AVATAR$" alt="$NAME$'s Profile Picture" class="avatar"/>
 		<div class="$STATUS-CLASS$">$STATUS-DESC$</div>
 		<div>$PRONOUNS$</div>
 		<div>$COUNTRY$</div>
 		<div>$GITHUB$</div>
 	</div>
-	<h2 class="name-label">$NAME$</h2>
-	<div class="aka-labels">$AKA-LABELS$</div>
-	<div class="roles">$ROLES$</div>
-	<hr/>
-	<div class="description">$DESCRIPTION$</div>
-	<div class="quote">$QUOTE$</div>
+	<div class="centre-panel">
+		<h2 class="name-label">$NAME$</h2>
+		<div class="aka-labels">$AKA-LABELS$</div>
+		<div class="roles">$ROLES$</div>
+		<hr/>
+		<div class="card-body">
+			<div class="description">$DESCRIPTION$</div>
+			<div class="quote">$QUOTE$</div>
+		</div>
+	</div>
 </div>
 `
 
@@ -403,6 +411,19 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in Feburary 2025 after a long period of inactivity.`,
 		quote: `"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag."`,
+	},
+	// LocalGod
+	localgod: {
+		name: "LocalGod",
+		aka: {},
+		avatar: "https://cdn.discordapp.com/avatars/254028990287708161/8b3ae9c4ffdb9bb8698301d6236841b2",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/LocalGod79",
+		roles: ["Core Member"],
+		description: `Old plugin creator and maker of the Ursa Polaris plugin. Appears as a person ship in-game using a very old Korath World Ship sprite. Hasn't been seen in the community since 2020.`,
+		quote: `"If only a rich Captain would build and stock a universal outfitter space station."`,
 	},
 	// Loymdayddaud
 	loymdayddaud: {
