@@ -878,19 +878,6 @@ const DIRECTORY = {
 		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements despite never really touching the images.`,
 		quote: `"Yes."`,
 	},
-	// Unordered Sigh
-	unordered_sigh: {
-		name: "Unordered Sigh",
-		aka: {},
-		avatar: "https://avatars.githubusercontent.com/UnorderedSigh",
-		status: 2,
-		pronouns: "she/her",
-		country: "",
-		github: "https://github.com/UnorderedSigh",
-		roles: ["Former Member"],
-		description: `Former C++ and Java programmer involved in writing for the Korath. Has left the community but can occasionally still be found on Swizzle Six alongside her improved version of James.`,
-		quote: `"I need one word or an idiom or a very few words."`,
-	},
 	// Warlord Mike
 	warlord_mike: {
 		name: "Warlord Mike",
