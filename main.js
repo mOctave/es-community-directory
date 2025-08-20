@@ -196,7 +196,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/azure3141",
 		roles: ["Core Member"],
-		description: `Realism addict who adores the colour blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
+		description: `Realism addict who adores the color blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
 		quote: `"List me down as an Arachi alt."`,
 	},
 	// beccabunny
@@ -225,7 +225,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/bene-dictator",
 		roles: ["Reviewer", "Oathkeeper", "Writing Patrol"],
-		description: `The current longest-active writing reviewer and one of the GitHub organization's moderators. Not too active on GitHub anymore, although they tend to show up every once in a while on the Discord server.`,
+		description: `The current longest-active writing reviewer and a GitHub moderator. Less involved in the community lately, but shows up every once in a while on both platforms.`,
 		quote: `"I was requested for spelling? Oh my goodness, this needs a rewrite..."`,
 	},
 	// Corraban
@@ -245,7 +245,7 @@ const DIRECTORY = {
 	daeridanii: {
 		name: "Daeridanii",
 		aka: {},
-		avatar: "https://cdn.discordapp.com/avatars/304361755516076034/a71877169b173e64db312db95e17cf2c",
+		avatar: "https://cdn.discordapp.com/avatars/304361755516076034/f1b00cb17bf22b219ad3a6c14245fa52",
 		status: 1,
 		pronouns: "she/her",
 		country: "US",
@@ -347,7 +347,7 @@ const DIRECTORY = {
 		country: "US",
 		github: "https://github.com/Hecter94",
 		roles: ["Community Organizer", "GitHub Admin"],
-		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, plugin archive, and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
+		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
 		quote: `"Friendly but vaguely threatening."`,
 		projects: [
 			{
@@ -421,7 +421,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/LocalGod79",
 		roles: ["Core Member"],
-		description: `Old plugin creator and maker of the Ursa Polaris plugin. Appears as a person ship in-game using a very old Korath World Ship sprite. Hasn't been seen in the community since 2020.`,
+		description: `Old plugin creator and reviewer who created the Marauders, made the Ursa Polaris plugin, and was responsible for some early Hai content. Hasn't been seen in the community since 2020.`,
 		quote: `"If only a rich Captain would build and stock a universal outfitter space station."`,
 	},
 	// Loymdayddaud
@@ -437,8 +437,8 @@ const DIRECTORY = {
 		pronouns: "he/him",
 		country: "SA",
 		github: "https://github.com/TheGiraffe3",
-		roles: ["Reviewer", "Writing Patrol", "Mission Patrol", "Omnis Lead"],
-		description: `Content reviewer who admires long mission chains and dislikes typos. Creator of possibly-unbalanced plugins.`,
+		roles: ["Reviewer", "Writing Patrol", "Mission Patrol"],
+		description: `Content reviewer who admires long mission chains and dislikes typos. Creator of possibly-unbalanced plugins and current maintainer of Omnis.`,
 		// This is technically roadrunner's quote, but it's pretty funny.
 		// Alternate quote if this one shouldn't be used for whatever reason:
 		// quote: `"Volunteer projects need extra contributions to keep going."`
@@ -798,7 +798,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/tehhowch",
 		roles: ["Developer"],
-		description: `Old code dev who vanished in 2022, but who still has (briefly) more commits to the GitHub repository than anyone else ever. One of the original three people MZ gave repository write access to.`,
+		description: `Old code dev who vanished in 2022, but was very active before then. One of the original three people MZ gave repository write access to.`,
 		quote: `"The heavy rockets usually spell the end for Captain Nate."`,
 	},
 	// Terin
@@ -878,6 +878,19 @@ const DIRECTORY = {
 		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements despite never really touching the images.`,
 		quote: `"Yes."`,
 	},
+	// W1zrad
+	w1zrad: {
+		name: "W1zrad",
+		aka: {},
+		avatar: "https://avatars.githubusercontent.com/W1zrad",
+		status: 2,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/W1zrad",
+		roles: ["Developer"],
+		description: `Mostly inactive developer historically focused on doing reviews. Typically shows up on Discord every couple of months.`,
+		quote: `"I'm here to add my increasingly irrelevant two cents."`,
+	},
 	// Warlord Mike
 	warlord_mike: {
 		name: "Warlord Mike",
@@ -906,18 +919,21 @@ const DIRECTORY = {
 		description: `The last remaining code dev who was active in 2016. Maintains 90% of the miscellaneous code stuff everyone else is too lazy to deal with, and hides from the Discord server in #the-inner-circle.`,
 		quote: `"It's true. The warp core is a fictional device."`,
 	},
-	// W1zrad
-	w1zrad: {
-		name: "W1zrad",
-		aka: {},
-		avatar: "https://avatars.githubusercontent.com/W1zrad",
+	// Wrzlprnft
+	wrzlprnft: {
+		name: "Wrzlprnft",
+		aka: {
+			name: "Maximilian Korber",
+			discord: "Wurzel",
+		},
+		avatar: "https://cdn.discordapp.com/avatars/191890978255273984/6a1786a50a6a931d56ab82443a22cd1f",
 		status: 2,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
-		github: "https://github.com/W1zrad",
-		roles: ["Developer"],
-		description: `Mostly inactive developer historically focused on doing reviews. Typically shows up on Discord every couple of months.`,
-		quote: `"I'm here to add my increasingly irrelevant two cents."`,
+		github: "https://github.com/Wrzlprnft",
+		roles: ["Privateer"],
+		description: `Early 3D artist and typo fixer who touched up a number of MZ's original models and was the first person to send a message in the current #beginner-help. Mostly inactive since 2017.`,
+		quote: `"nope"`,
 	},
 	// ziproot
 	ziproot: {
@@ -956,7 +972,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/Zitchas",
 		roles: ["Core Member", "Theme Patrol"],
-		description: `Former GitHub administrator and writer of Remnant content, and one of only four people with more than 400 commits to the GitHub repo. Left the community but can still occasionally be found on Swizzle Six.`,
+		description: `Former GitHub administrator and Remnant writer, at one time very heavily involved in both code and content creation. Left the community but can still occasionally be found on Swizzle Six.`,
 		quote: `"May the Embers burn bright for you."`
 	},
 	// Zoura
@@ -1173,10 +1189,11 @@ function makeDirectoryCard(obj, id) {
 		let roleDesc = "";
 		for (role of obj.roles) {
 			const roleClass = chooseRoleClass(role);
+			const roleTooltip = chooseRoleTooltip(role);
 			if (!noRoleAdded)
 				roleDesc += " • ";
 
-			roleDesc += `<span class="${roleClass}">${role}</span>`;
+			roleDesc += `<span class="${roleClass}" tooltip="${roleTooltip}">${role}</span>`;
 			noRoleAdded = false;
 		}
 		card = card.replaceAll("$ROLES$", roleDesc);
@@ -1336,8 +1353,6 @@ function chooseRoleClass(role) {
 			return "discord-role privateer";
 		case "Merchant":
 			return "discord-role merchant";
-		case "Community Organizer":
-			return "discord-role community-organizer";
 		case "Maintainer":
 			return "github-role maintainer";
 		case "Oathkeeper":
@@ -1358,6 +1373,61 @@ function chooseRoleClass(role) {
 			return "other-role";
 	}
 }
+
+
+
+function chooseRoleTooltip(role) {
+	switch(role) {
+		case "Developer":
+			return "This person has the Developer role on Discord and write access to the GitHub repository.";
+		case "Community Organizer":
+			return "This person is responsible for organizing and maintaining the community.";
+		case "Moderator":
+			return "This person is a Discord mod.";
+		case "Reviewer":
+			return "This person is a designated reviewer on Discord.";
+		case "Core Member":
+			return "This Discord member has been allowed into #the-inner-circle.";
+		case "Privateer (Potato)":
+			return "This Discord member is, or once was, *way* too active.";
+		case "Privateer":
+			return "This Discord member is familiar with the workings of the server.";
+		case "Merchant":
+			return "This person is on the Discord server.";
+		case "Maintainer":
+			return "This dev has maintenance access to the GitHub repository.";
+		case "Oathkeeper":
+			return "This person is a GitHub moderator.";
+		case "Code Patrol":
+			return "This person does code review.";
+		case "Art Patrol":
+			return "This person does art review.";
+		case "Writing Patrol":
+			return "This person does writing review.";
+		case "Theme Patrol":
+			return "This person does theme review.";
+		case "Balance Patrol":
+			return "This person does balance review.";
+		case "Mission Patrol":
+			return "This person does mission review.";
+		case "Discord Admin":
+			return "This person has full admin access to the Discord server.";
+		case "GitHub Admin":
+			return "This person has full owner access to the GitHub organization.";
+		case "Wiki Admin":
+			return "This person is in charge of the Fandom bureaucracy.";
+		case "Android Lead":
+			return "This person currently maintains the Android port of Endless Sky.";
+		case "Former Member":
+			return "This person no longer has any roles in the community.";
+		case "Original Developer":
+			return "This person is responsible for the very creation of the game.";
+		default:
+			return "This role does not have a defined tooltip. Please report this issue on the directory's GitHub issues page.";
+	}
+}
+
+
 
 function toggleSearchOptions() {
 	const options = document.getElementById("advanced-search-options");
