@@ -1385,7 +1385,7 @@ function chooseRoleTooltip(role) {
 		case "Moderator":
 			return "This person is a Discord mod.";
 		case "Reviewer":
-			return "This person is a designated reviewer on Discord.";
+			return "This person is designated as a designated on Discord.";
 		case "Core Member":
 			return "This Discord member has been allowed into #the-inner-circle.";
 		case "Privateer (Potato)":
@@ -1421,7 +1421,7 @@ function chooseRoleTooltip(role) {
 		case "Former Member":
 			return "This person no longer has any roles in the community.";
 		case "Original Developer":
-			return "This person is responsible for the very creation of the game.";
+			return "This person is to blame for the game existing.";
 		default:
 			return "This role does not have a defined tooltip. Please report this issue on the directory's GitHub issues page.";
 	}
