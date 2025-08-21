@@ -140,7 +140,7 @@ MARK: Cards
 .aka-labels {
 	font-style: italic;
 	white-space: nowrap;
-	overflow-x: scroll;
+	overflow-x: auto;
 	scrollbar-width: thin;
 	flex: 0 0 content;
 }
@@ -167,7 +167,7 @@ MARK: Cards
 	border-radius: 5px;
 	height: calc(100% - 14px);
 	width: 150px;
-	overflow: scroll;
+	overflow: auto;
 	scrollbar-width: 2px;
 }
 
