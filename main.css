@@ -406,6 +406,9 @@ MARK: Tooltips
 /*
 MARK: Hide Scrollbar Track
 */
+html::-webkit-scrollbar {
+	background: transparent;
+}
 html::-webkit-scrollbar-track-piece {
 	display:none;
 }
