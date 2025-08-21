@@ -88,8 +88,6 @@ MARK: Cards
 	border-radius: 20px;
 	overflow: hidden;
 	height: 180px;
-	min-width: 400px;
-	max-width: 900px;
 }
 
 .card:hover {
