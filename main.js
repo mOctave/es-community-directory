@@ -1385,7 +1385,7 @@ function chooseRoleTooltip(role) {
 		case "Moderator":
 			return "This person is a Discord mod.";
 		case "Reviewer":
-			return "This person is designated as a designated on Discord.";
+			return "This person is designated as a reviewer on Discord.";
 		case "Core Member":
 			return "This Discord member has been allowed into #the-inner-circle.";
 		case "Privateer (Potato)":
