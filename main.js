@@ -516,7 +516,7 @@ const DIRECTORY = {
 			{
 				name: "All-Content Plugin",
 				type: "plugin",
-				url: "https://gitub.com/endless-sky/all-content-plugin",
+				url: "https://github.com/endless-sky/all-content-plugin",
 				important: true
 			},
 			{
@@ -574,13 +574,13 @@ const DIRECTORY = {
 			{
 				name: "Blended Ships",
 				type: "plugin",
-				url: "https://gitub.com/mOctave/blended-ships",
+				url: "https://github.com/mOctave/blended-ships",
 				important: true
 			},
 			{
 				name: "Taskship",
 				type: "plugin",
-				url: "https://gitub.com/mOctave/taskship",
+				url: "https://github.com/mOctave/taskship",
 				important: false
 			},
 			{
