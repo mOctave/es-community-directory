@@ -32,7 +32,7 @@ body:
     id: pronouns
     attributes:
       label: Pronouns
-      description: Add your prefered pronouns here or else leave this field blank to use the default "they/them.""
+      description: Add your prefered pronouns here or else leave this field blank to use the default "they/them."
       placeholder: they/them
   - type: input
     id: country

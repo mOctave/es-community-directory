@@ -1,0 +1,59 @@
+name: Bug Report
+description: Report a problem with the directory.
+labels: [bug]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      placeholder: Provide a brief description of the bug you've found.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce
+      description: Clearly describe how others can reproduce the bug.
+      placeholder: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: What device are you viewing the site on?
+      placeholder: eg Desktop, iPhone6
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      description: What OS are you using?
+      placeholder: eg Windows 11, iOS 18.2
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser are you using? Be sure to include the version number.
+      placeholder: eg Chrome 138, Firefox 141.0.3
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Is there any other context you want to share about the problem?
