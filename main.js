@@ -289,7 +289,7 @@ const DIRECTORY = {
 			github: "Amazinite"
 		},
 		avatar: "https://cdn.discordapp.com/avatars/251112413905158144/342b579baf3c9883b2237ade21c31af5",
-		status: 0,
+		status: 1,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/amazinite",
