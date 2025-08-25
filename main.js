@@ -1228,7 +1228,7 @@ function makeDirectoryCard(obj, id) {
 			let allProjects = "";
 			let importantProjects = "";
 			for (project of obj.projects) {
-				const icon = chooseIcon(obj.type);
+				const icon = chooseIcon(project.type);
 				allProjects += `<div class="project"><a href="${project.url}">${icon} ${project.name}</a></div>`;
 				if (project.important) {
 					if (!noImportantsAdded)
