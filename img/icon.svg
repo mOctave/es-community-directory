@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M49,36L55,43L55,49L49,49" style="fill:none;stroke:rgb(0,204,0);stroke-width:0.7px;"/>
+    <g transform="matrix(-1,0,0,1,64,0)">
+        <path d="M49,36L55,43L55,49L49,49" style="fill:none;stroke:rgb(0,187,0);stroke-width:0.7px;"/>
+    </g>
+    <path d="M43,51L43,55L40,58L40,62" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <g transform="matrix(-1,0,0,1,64,0)">
+        <path d="M43,51L43,55L40,58L40,62" style="fill:none;stroke:rgb(0,119,0);stroke-width:0.7px;"/>
+    </g>
+    <path d="M17,51L17,58L21,62L28,62L31,59L31,57L33,57L33,59L36,62L43,62L47,58L47,51" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <path d="M28,14L36,14L38,16L38,18L26,18L26,16L28,14Z" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <path d="M26,21L38,21" style="fill:none;stroke:rgb(0,102,0);stroke-width:0.7px;"/>
+    <path d="M25,14L25,15" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+    <path d="M39,14L39,15" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    <path d="M27,12L27,10L30,7L34,7L36.958,9.958L36.958,12L27,12Z" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    <path d="M25,51L25,54L27,56L37,56L39,54L39,51" style="fill:none;stroke:rgb(0,102,0);stroke-width:0.7px;"/>
+    <path d="M32,23L32,29" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <path d="M25,23L24,24" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <path d="M39,23L40,24" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+    <path d="M32,2L32,7" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    <path d="M32,29L31,30L31,51L33,51L33,30L32,29Z" style="fill:none;stroke:rgb(0,204,0);stroke-width:0.7px;"/>
+    <path d="M24.979,22.975L38.987,23.01L40.997,21L40.997,7.997L35,2L29,2L23.004,7.996L23.004,21L24.979,22.975Z" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    <g id="cargo-container" serif:id="cargo container">
+        <rect x="15" y="24" width="14" height="13" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,119,0);stroke-width:0.7px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,7.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+        </g>
+        <path d="M22,24L22,37" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+    </g>
+    <g id="cargo-container1" serif:id="cargo container" transform="matrix(1,0,0,1,0,14)">
+        <rect x="15" y="24" width="14" height="13" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,119,0);stroke-width:0.7px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,7.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+        </g>
+        <path d="M22,24L22,37" style="fill:none;stroke:rgb(0,153,0);stroke-width:0.7px;"/>
+    </g>
+    <g id="cargo-container2" serif:id="cargo container" transform="matrix(1,0,0,1,20,0)">
+        <rect x="15" y="24" width="14" height="13" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,7.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+        </g>
+        <path d="M22,24L22,37" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    </g>
+    <g id="cargo-container3" serif:id="cargo container" transform="matrix(1,0,0,1,20,14)">
+        <rect x="15" y="24" width="14" height="13" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,136,0);stroke-width:0.7px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,7.5,0)">
+            <rect x="16" y="26" width="4" height="9" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+        </g>
+        <path d="M22,24L22,37" style="fill:none;stroke:rgb(0,170,0);stroke-width:0.7px;"/>
+    </g>
+</svg>
