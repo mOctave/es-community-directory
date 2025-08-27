@@ -493,9 +493,9 @@ const DIRECTORY = {
 			},
 		]
 	},
-	// Master of Grey
-	master_of_grey: {
-		name: "Master of Grey",
+	// MasterofGrey
+	masterofgrey: {
+		name: "MasterOfGrey",
 		aka: {
 			discord: "Græy"
 		},
@@ -753,16 +753,16 @@ const DIRECTORY = {
 		quote: `"We make ES so performant that no one notices that 80% of it is crypto mining."`,
 		badges: ["incipias"]
 	},
-	// Roadrunner56
+	// roadrunner56
 	roadrunner56: {
-		name: "Roadrunner56",
+		name: "roadrunner56",
 		aka: {
 		},
-		avatar: "https://avatars.githubusercontent.com/Roadrunner56",
+		avatar: "https://avatars.githubusercontent.com/roadrunner56",
 		status: 0,
 		pronouns: "they/them",
 		country: "CA",
-		github: "https://github.com/Roadrunner56",
+		github: "https://github.com/roadrunner56",
 		roles: ["Developer", "Maintainer", "Writing Patrol"],
 		description: `Mainly focuses on writing PRs and projects. Currently trying to flesh out the plot structure for the Republic campaign. Will one day finish the Bashkmul.`,
 		quote: `"More semicolons!"`,
