@@ -429,6 +429,7 @@ MARK: Tooltips
 	font-weight: 400;
 	font-family: Ubuntu, Verdana, sans-serif;
 	opacity: 90%;
+	margin-left: -10px;
 }
 
 @media only screen and (max-width: 899px) {
