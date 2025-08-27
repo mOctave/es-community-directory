@@ -160,6 +160,41 @@ const ROLE_INFO = {
 }
 
 
+const BADGE_TOOLTIPS = {
+	"alpha": "This person likes the Alphas.",
+	"arach": "This person likes the Arachi.",
+	"archon": "This person likes the Archons.",
+	"avgi": "This person likes the Avgi.",
+	"bunrodea": "This person likes the Bunrodea.",
+	"compass": "This person likes the compass logo?",
+	"efret": "This person likes the Kor Efret.",
+	"email": "This person likes to abuse the badge system.",
+	"exile": "This person likes the Korath Exiles.",
+	"fw": "This person likes the Free Worlds.",
+	"gegno": "This person likes the Gegno.",
+	"hai": "This person likes the Hai.",
+	"heliarch": "This person likes the Heliarchs.",
+	"incipias": "This person likes the Incipias.",
+	"ka'het": "This person likes the Ka'het.",
+	"kimek": "This person likes the Kimek.",
+	"merchant": "This person likes human merchants.",
+	"mereti": "This person likes the Kor Mereri.",
+	"pirate": "This person likes pirates.",
+	"pug": "This person likes the Pug.",
+	"quarg": "This person likes the Quarg.",
+	"remnant": "This person likes the Remnant.",
+	"republic": "This person likes the Republic.",
+	"saryd": "This person likes the Saryds.",
+	"sestor": "This person likes the Kor Sestor.",
+	"sheragi": "This person likes the Sheragi.",
+	"subsidurial": "Subsidurial!!",
+	"successor": "This person likes the Successors.",
+	"syndicate": "This person likes the Syndicate.",
+	"unfettered": "This person likes the Unfettered Hai.",
+	"wanderer": "This person likes the Wanderers.",
+}
+
+
 
 // MARK: Directory
 const DIRECTORY = {
@@ -1374,7 +1409,7 @@ function makeDirectoryCard(obj, id) {
 
 		if (obj.badges) {
 			for (let badge of obj.badges) {
-				badges += `<img class="badge" src="img/${badge}.png"/>`
+				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${badge}.png"/></span>`
 			}
 		}
 
