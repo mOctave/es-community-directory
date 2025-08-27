@@ -1019,6 +1019,40 @@ const DIRECTORY = {
 		description: `Organizer of tournaments, distributor of pixelated carrots, and creator of 95% of wacky, hacky, and hilarious plugins.`,
 		quote: `"Tastebuds have become a vestigial body part."`,
 	},
+	// zuckung
+	zuckung: {
+		name: "zuckung",
+		aka: {
+			discord: "zuckung",
+			github: "zuckung",
+			reddit: "zuckung",
+			steam: "zuckung"
+		},
+		avatar: "https://avatars.githubusercontent.com/zuckung",
+		status: 0,
+		pronouns: "he/him",
+		country: "DE",
+		github: "https://github.com/zuckung",
+		roles: ["Core Member"],
+		description: `Author of numerous small to mid-sized plugins.`,
+		quote: `"I can’t gegno satisfaction."`,
+		projects: [
+			{
+				name: "Plugins",
+				type: "plugin",
+				url: "https://github.com/zuckung/endless-sky-plugins",
+				important: true
+			},
+			{
+				name: "ES-DataParser",
+				type: "tool",
+				url: "https://zuckung.github.io/ES-DataParser/",
+				important: true
+			}
+		],
+		email: "",
+		discord: "main",
+	},
 }
 
 const NULL_CARD = {
