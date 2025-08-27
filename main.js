@@ -1022,12 +1022,7 @@ const DIRECTORY = {
 	// zuckung
 	zuckung: {
 		name: "zuckung",
-		aka: {
-			discord: "zuckung",
-			github: "zuckung",
-			reddit: "zuckung",
-			steam: "zuckung"
-		},
+		aka: {},
 		avatar: "https://avatars.githubusercontent.com/zuckung",
 		status: 0,
 		pronouns: "he/him",
