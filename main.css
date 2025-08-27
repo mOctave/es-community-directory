@@ -389,8 +389,12 @@ MARK: Role Colours
 	color: rgb(21, 181, 138);
 }
 
+.admin-role {
+	color: rgb(4, 196, 59);
+}
+
 .other-role {
-	color: #eee;
+	color: #ccc;
 }
 
 

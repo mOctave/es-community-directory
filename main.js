@@ -68,6 +68,99 @@ const NO_PROJECT_TEMPLATE = `
 
 
 
+const ROLE_INFO = {
+	"Developer": {
+		class: "discord-role developer",
+		tooltip: "This person has the Developer role on Discord and write access to the GitHub repository."
+	},
+	"Community Organizer": {
+		class: "discord-role community-organizer",
+		tooltip: "This person is responsible for organizing and maintaining the community."
+	},
+	"Moderator": {
+		class: "discord-role moderator",
+		tooltip: "This person is responsible for organizing and maintaining the community."
+	},
+	"Reviewer": {
+		class: "discord-role reviewer",
+		tooltip: "This person is designated as a reviewer on Discord."
+	},
+	"Core Member": {
+		class: "discord-role core-member",
+		tooltip: "This Discord member has been allowed into #the-inner-circle."
+	},
+	"Privateer (Potato)": {
+		class: "discord-role privateer-potato",
+		tooltip: "This Discord member is, or once was, *way* too active."
+	},
+	"Privateer": {
+		class: "discord-role privateer",
+		tooltip: "This Discord member is familiar with the workings of the server."
+	},
+	"Merchant": {
+		class: "discord-role merchant",
+		tooltip: "This person is on the Discord server."
+	},
+	"Maintainer": {
+		class: "github-role maintainer",
+		tooltip: "This dev has maintenance access to the GitHub repository."
+	},
+	"Oathkeeper": {
+		class: "github-role oathkeeper",
+		tooltip: "This person is a GitHub moderator."
+	},
+	"Code Patrol": {
+		class: "github-role code-patrol",
+		tooltip: "This person does code review."
+	},
+	"Art Patrol": {
+		class: "github-role art-patrol",
+		tooltip: "This person does art review."
+	},
+	"Writing Patrol": {
+		class: "github-role writing-patrol",
+		tooltip: "This person does writing review."
+	},
+	"Theme Patrol": {
+		class: "github-role theme-patrol",
+		tooltip: "This person does theme review."
+	},
+	"Balance Patrol": {
+		class: "github-role balance-patrol",
+		tooltip: "This person does balance review."
+	},
+	"Mission Patrol": {
+		class: "github-role mission-patrol",
+		tooltip: "This person does writing review."
+	},
+	"Discord Admin": {
+		class: "admin-role",
+		tooltip: "This person has full admin access to the Discord server."
+	},
+	"GitHub Admin": {
+		class: "admin-role",
+		tooltip: "This person has full admin access to the GitHub organization."
+	},
+	"Wiki Admin": {
+		class: "admin-role",
+		tooltip: "This person is in charge of the Fandom bureaucracy."
+	},
+	"Android Lead": {
+		class: "other-role",
+		tooltip: "This person currently maintains the Android port of Endless Sky."
+	},
+	"Former Member": {
+		class: "other-role",
+		tooltip: "This person no longer has any roles in the community."
+	},
+	"Original Developer": {
+		class: "other-role",
+		tooltip: "This person is to blame for the game existing."
+	},
+}
+
+
+
 // MARK: Directory
 const DIRECTORY = {
 	// Template
@@ -1217,8 +1310,9 @@ function makeDirectoryCard(obj, id) {
 		let noRoleAdded = true;
 		let roleDesc = "";
 		for (role of obj.roles) {
-			const roleClass = chooseRoleClass(role);
-			const roleTooltip = chooseRoleTooltip(role);
+			const roleClass = ROLE_INFO[role] ? ROLE_INFO[role].class : "other-role";
+			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip 
+				: "This role is not properly defined! Please report this bug.";
 			if (!noRoleAdded)
 				roleDesc += " • ";
 
@@ -1397,97 +1491,6 @@ function chooseIcon(type) {
 
 
 // MARK: Other Functions
-function chooseRoleClass(role) {
-	switch(role) {
-		case "Developer":
-			return "discord-role developer";
-		case "Community Organizer":
-			return "discord-role community-organizer";
-		case "Moderator":
-			return "discord-role moderator";
-		case "Reviewer":
-			return "discord-role reviewer";
-		case "Core Member":
-			return "discord-role core-member";
-		case "Privateer (Potato)":
-			return "discord-role privateer-potato";
-		case "Privateer":
-			return "discord-role privateer";
-		case "Merchant":
-			return "discord-role merchant";
-		case "Maintainer":
-			return "github-role maintainer";
-		case "Oathkeeper":
-			return "github-role oathkeeper";
-		case "Code Patrol":
-			return "github-role code-patrol";
-		case "Art Patrol":
-			return "github-role art-patrol";
-		case "Writing Patrol":
-			return "github-role writing-patrol";
-		case "Theme Patrol":
-			return "github-role theme-patrol";
-		case "Balance Patrol":
-			return "github-role balance-patrol";
-		case "Mission Patrol":
-			return "github-role mission-patrol";
-		default:
-			return "other-role";
-	}
-}
-
-
-
-function chooseRoleTooltip(role) {
-	switch(role) {
-		case "Developer":
-			return "This person has the Developer role on Discord and write access to the GitHub repository.";
-		case "Community Organizer":
-			return "This person is responsible for organizing and maintaining the community.";
-		case "Moderator":
-			return "This person is a Discord mod.";
-		case "Reviewer":
-			return "This person is designated as a reviewer on Discord.";
-		case "Core Member":
-			return "This Discord member has been allowed into #the-inner-circle.";
-		case "Privateer (Potato)":
-			return "This Discord member is, or once was, *way* too active.";
-		case "Privateer":
-			return "This Discord member is familiar with the workings of the server.";
-		case "Merchant":
-			return "This person is on the Discord server.";
-		case "Maintainer":
-			return "This dev has maintenance access to the GitHub repository.";
-		case "Oathkeeper":
-			return "This person is a GitHub moderator.";
-		case "Code Patrol":
-			return "This person does code review.";
-		case "Art Patrol":
-			return "This person does art review.";
-		case "Writing Patrol":
-			return "This person does writing review.";
-		case "Theme Patrol":
-			return "This person does theme review.";
-		case "Balance Patrol":
-			return "This person does balance review.";
-		case "Mission Patrol":
-			return "This person does mission review.";
-		case "Discord Admin":
-			return "This person has full admin access to the Discord server.";
-		case "GitHub Admin":
-			return "This person has full owner access to the GitHub organization.";
-		case "Wiki Admin":
-			return "This person is in charge of the Fandom bureaucracy.";
-		case "Android Lead":
-			return "This person currently maintains the Android port of Endless Sky.";
-		case "Former Member":
-			return "This person no longer has any roles in the community.";
-		case "Original Developer":
-			return "This person is to blame for the game existing.";
-		default:
-			return "This role does not have a defined tooltip. Please report this issue on the directory's GitHub issues page.";
-	}
-}
 
 
 
