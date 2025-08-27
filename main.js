@@ -31,7 +31,7 @@ const TEMPLATE = `
 		$PROJECTS$
 	</div>
 	<div class="centre-panel">
-		<h2 class="name-label">$NAME$</h2>
+		<h2 class="name-label">$NAME$<div class="badge-container">$BADGES$</div></h2>
 		<div class="aka-labels">$AKA-LABELS$</div>
 		<div class="roles">$ROLES$</div>
 		<hr/>
@@ -54,7 +54,7 @@ const NO_PROJECT_TEMPLATE = `
 		<div>$GITHUB$</div>
 	</div>
 	<div class="centre-panel">
-		<h2 class="name-label">$NAME$</h2>
+		<h2 class="name-label">$NAME$<div class="badge-container">$BADGES$</div></h2>
 		<div class="aka-labels">$AKA-LABELS$</div>
 		<div class="roles">$ROLES$</div>
 		<hr/>
@@ -122,7 +122,23 @@ const DIRECTORY = {
 				url: "https://example.com",
 				important: false
 			}
-		]
+		],
+		// If you would like people to contact you by email, you can add your email address
+		// here. Otherwise, leave this entry blank.
+		email: "youremail@example.com",
+		// If you would like people to contact you on Discord, name the server where they
+		// can find you here. Otherwise, leave this entry blank.
+		// Should be one of "main", "s6", or "mafia"
+		discord: "main",
+		// Add up to two or three "faction alignment" badges. Names should be lowercase and
+		// match one of the images in the img directory of the repo (see below).
+		// This is purely decorative and absolutely optional.
+		//
+		// alpha | arach | archon | avgi | bunrodea | compass | efret | exile
+		// fw | gegno | hai | heliarch | incipias | ka'het | kimek | merchant
+		// mereti | pirate | pug | quarg | remnant | republic | saryd | sestor
+		// sheragi | subsidurial | successor | syndicate | unfettered | wanderer
+		badges: ["compass"],
 	},
 	// 1010todd
 	_1010todd: {
@@ -184,7 +200,8 @@ const DIRECTORY = {
 				url: "https://github.com/Arachi-Lover/EvenLowerDamage",
 				important: true
 			},
-		]
+		],
+		badges: ["arach"]
 	},
 	// Azure
 	azure: {
@@ -198,6 +215,7 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `Realism addict who adores the color blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
 		quote: `"List me down as an Arachi alt."`,
+		badges: ["avgi"]
 	},
 	// beccabunny
 	beccabunny: {
@@ -214,6 +232,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Art Patrol"],
 		description: `Artist who also does content creation for the Builders and the Ka'het. Also happens to be the namesake of one of the oddest person ships in the game.`,
 		quote: `"I'm just a normal minor planet trying its best to ignore the law of gravity."`,
+		badges: ["ka'het"]
 	},
 	// bene_dictator
 	bene_dictator: {
@@ -253,6 +272,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Art Patrol"],
 		description: `3D modeller and creator of the Successors, as well as the DAIS ship plugin. Hasn't been all that active lately.`,
 		quote: `"Endless quantities of digital spaceship."`,
+		badges: ["successor"]
 	},
 	// Delvin Anaris
 	delvin_anaris: {
@@ -296,6 +316,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Discord Admin", "GitHub Admin"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
+		badges: ["bunrodea"]
 	},
 	// EjoThims
 	ejothims: {
@@ -382,6 +403,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Code Patrol"],
 		description: `Code reviewer who's played a large part in developing Hai and Unfettered content. Possibly one of the only ES higher-ups who's actually played the game recently.`,
 		quote: `"I like coding. But that's not all I'm about."`,
+		badges: ["unfettered"]
 	},
 	// Koranir
 	koranir: {
@@ -410,6 +432,7 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in Feburary 2025 after a long period of inactivity.`,
 		quote: `"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag."`,
+		badges: ["pirate"]
 	},
 	// LocalGod
 	localgod: {
@@ -595,7 +618,9 @@ const DIRECTORY = {
 				url: "https://github.com/mOctave/weftspace",
 				important: true
 			}
-		]
+		],
+		discord: "main",
+		badges: ["merchant", "subsidurial"]
 	},
 	// Nana Scone
 	nana_scone: {
@@ -608,7 +633,7 @@ const DIRECTORY = {
 		github: "https://github.com/NanaScone",
 		roles: ["Moderator", "Oathkeeper"],
 		description: `The newest moderator, pretty much only active on Discord. Also the only member of the community to be a moderator on both Discord and GitHub.`,
-		quote: `"Easter eggs never stay Easter eggs for long."`,
+		quote: `"Easter eggs never stay Easter eggs for long."`
 	},
 	// petervdmeer
 	petervdmeer: {
@@ -622,7 +647,7 @@ const DIRECTORY = {
 		github: "https://github.com/petervdmeer",
 		roles: ["Developer", "GitHub Admin"],
 		description: `Code-focused dev who's usually more active on GitHub than on Discord. Creator of the Hauler VI and part of the reason why we now have Doxygen support we never use.`,
-		quote: `"Your hyperdrive doesn't work? Have you tried turning it off and on again?"`,
+		quote: `"Your hyperdrive doesn't work? Have you tried turning it off and on again?"`
 	},
 	// Pointedstick
 	pointedstick: {
@@ -698,7 +723,8 @@ const DIRECTORY = {
 		github: "https://github.com/ravenshining",
 		roles: ["Former Member"],
 		description: `Former Korath writer who also created artwork, did some sound editing, and wrote a little bit of C++ code on the side. Has left the community but can occasionally still be found on Swizzle Six.`,
-		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`
+		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`,
+		badges: ["exile", "efret"]
 	},
 	// reticent-rem
 	reticent_rem: {
@@ -725,6 +751,7 @@ const DIRECTORY = {
 		roles: ["Former Member"],
 		description: `Former code reviewer and C++ programmer who is also the creator of the Incipias. Left the community in September 2024.`,
 		quote: `"We make ES so performant that no one notices that 80% of it is crypto mining."`,
+		badges: ["incipias"]
 	},
 	// Roadrunner56
 	roadrunner56: {
@@ -774,6 +801,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Maintainer", "Art Patrol"],
 		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, now also doing a significant amount of content review and writing as well.`,
 		quote: `"Down with tangents, up with overlaps."`,
+		badges: ["gegno"]
 	},
 	// Tadrix
 	tadrix: {
@@ -973,7 +1001,8 @@ const DIRECTORY = {
 		github: "https://github.com/Zitchas",
 		roles: ["Core Member", "Theme Patrol"],
 		description: `Former GitHub administrator and Remnant writer, at one time very heavily involved in both code and content creation. Left the community but can still occasionally be found on Swizzle Six.`,
-		quote: `"May the Embers burn bright for you."`
+		quote: `"May the Embers burn bright for you."`,
+		badges: ["remnant"]
 	},
 	// Zoura
 	zoura: {
@@ -1241,6 +1270,39 @@ function makeDirectoryCard(obj, id) {
 			card = card.replaceAll("$PROJECTS$", allProjects)
 				.replaceAll("$IMPORTANT-PROJECTS$", importantProjects);
 		}
+	} catch (e) {
+		console.error(e);
+	}
+
+	// Email and Badges
+	try {
+		let badges = "";
+
+		if (obj.badges) {
+			for (let badge of obj.badges) {
+				badges += `<img class="badge" src="img/${badge}.png"/>`
+			}
+		}
+
+		if (obj.email) {
+			badges += `<a class="badge" href="mailto:${obj.email}" linktip="Contact by Email"><img src="img/email.png" alt="[Email]"/></a>`
+		}
+
+		if (obj.discord) {
+			switch (obj.discord) {
+				case "main":
+					badges += `<a class="badge" href="https://discord.gg/ZeuASSx" linktip="Contact on Endless Sky Community"><img src="https://cdn.discordapp.com/icons/251118043411775489/05594a3abb941d674aff4e6b299f4c72" alt="Link to ESC Discord"/></a>`
+					break;
+				case "s6":
+					badges += `<a class="badge" href="https://discord.gg/mPxk4JuTPq" linktip="Contact on Swizzle 6"><img src="https://cdn.discordapp.com/icons/844344915454722089/4920da11ee3ba4250c03a5269bad9ae6" alt="Link to Swizzle 6 Discord"/></a>`
+					break;
+				case "mafia":
+					badges += `<a class="badge linktip" href="https://discord.gg/cW9tbcPvJ6" linktip="Contact on ES Mafia"><img src="https://cdn.discordapp.com/icons/364791686225985537/fb67eaea7cbd9b19144bf930b8757af1" alt="Link to ES Mafia Discord"/></a>`
+					break;
+			}
+		}
+
+		card = card.replaceAll("$BADGES$", badges);
 	} catch (e) {
 		console.error(e);
 	}

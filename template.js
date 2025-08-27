@@ -75,5 +75,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				url: "https://example.com",
 				important: false
 			}
-		]
+		],
+		// If you would like people to contact you by email, you can add your email address
+		// here. Otherwise, leave this entry blank.
+		email: "youremail@example.com",
+		// If you would like people to contact you on Discord, name the server where they
+		// can find you here. Otherwise, leave this entry blank.
+		// Should be one of "main", "s6", or "mafia"
+		discord: "main",
+		// Add up to two or three "faction alignment" badges. Names should be lowercase and
+		// match one of the images in the img directory of the repo (see below).
+		// This is purely decorative and absolutely optional.
+		//
+		// alpha | arach | archon | avgi | bunrodea | compass | efret | exile
+		// fw | gegno | hai | heliarch | incipias | ka'het | kimek | merchant
+		// mereti | pirate | pug | quarg | remnant | republic | saryd | sestor
+		// sheragi | subsidurial | successor | syndicate | unfettered | wanderer
+		badges: ["compass"],
 	},
