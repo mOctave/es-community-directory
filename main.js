@@ -614,8 +614,7 @@ const DIRECTORY = {
 				url: "https://github.com/TheGiraffe3/Jibauni",
 				important: false
 			},
-		],
-		badges: ["fw"]
+		]
 	},
 	// MasterofGrey
 	masterofgrey: {
