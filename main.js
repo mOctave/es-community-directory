@@ -393,7 +393,7 @@ const DIRECTORY = {
 		name: "Daeridanii",
 		aka: {},
 		avatar: "https://cdn.discordapp.com/avatars/304361755516076034/f1b00cb17bf22b219ad3a6c14245fa52",
-		status: 1,
+		status: 0,
 		pronouns: "she/her",
 		country: "US",
 		github: "https://github.com/Daeridanii1",
@@ -422,12 +422,12 @@ const DIRECTORY = {
 		name: "Darcy Manoel",
 		aka: {},
 		avatar: "https://avatars.githubusercontent.com/DarcyManoel",
-		status: 0,
+		status: 2,
 		pronouns: "he/him",
 		country: "AU",
 		github: "https://github.com/DarcyManoel",
 		roles: ["Moderator"],
-		description: `Discord moderator and original creator of Omnis and the Endless Sky Creator's Handbook, as well as a number of other development tools.`,
+		description: `Discord moderator and original creator of Omnis and the Endless Sky Creator's Handbook, as well as a number of other development tools. Left the community at the end of October.`,
 		quote: `"Faction authors rule the world."`,
 	},
 	// Derpy Horse
@@ -437,7 +437,7 @@ const DIRECTORY = {
 			github: "Amazinite"
 		},
 		avatar: "https://cdn.discordapp.com/avatars/251112413905158144/342b579baf3c9883b2237ade21c31af5",
-		status: 1,
+		status: 0,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/amazinite",
@@ -579,9 +579,7 @@ const DIRECTORY = {
 	loymdayddaud: {
 		name: "Loymdayddaud",
 		aka: {
-		//	discord: "Loymdayddaud",
 			github: "TheGiraffe3",
-		//	reddit: "Loymdayddaud",
 		},
 		avatar: "https://avatars.githubusercontent.com/TheGiraffe3",
 		status: 0,
@@ -589,11 +587,8 @@ const DIRECTORY = {
 		country: "SA",
 		github: "https://github.com/TheGiraffe3",
 		roles: ["Reviewer", "Writing Patrol", "Mission Patrol"],
-		description: `Content reviewer who admires long mission chains and dislikes typos. Creator of possibly-unbalanced plugins and current maintainer of Omnis.`,
-		// This is technically roadrunner's quote, but it's pretty funny.
-		// Alternate quote if this one shouldn't be used for whatever reason:
-		// quote: `"Volunteer projects need extra contributions to keep going."`
-		quote: `"Typo detected. Initiating weapons engagement."`,
+		description: `Content reviewer who admires long mission chains. Creator of a few plugins and current maintainer of Omnis.`,
+		quote: `"Don't use commas. And periods, wrong."`,
 		projects: [
 			{
 				name: "Rumskib",
@@ -620,6 +615,7 @@ const DIRECTORY = {
 				important: false
 			},
 		]
+		badges: ["fw"],
 	},
 	// MasterofGrey
 	masterofgrey: {
@@ -1138,7 +1134,7 @@ const DIRECTORY = {
 		aka: {
 			github: "AvianGeneticist"
 		},
-		avatar: "https://cdn.discordapp.com/avatars/450719725538770944/315eee3a5aff87c398a396f5e00c5a32",
+		avatar: "https://cdn.discordapp.com/avatars/450719725538770944/21f058a67bbfb48b2807ab2c864bf65e",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
