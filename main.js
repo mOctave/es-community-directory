@@ -589,7 +589,6 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Writing Patrol", "Mission Patrol"],
 		description: `Content reviewer who admires long mission chains. Creator of a few plugins and the current maintainer of Omnis.`,
 		quote: `"Don't use commas. And periods, wrong."`,
-		badges: ["fw"],
 		projects: [
 			{
 				name: "Rumskib",
@@ -615,7 +614,8 @@ const DIRECTORY = {
 				url: "https://github.com/TheGiraffe3/Jibauni",
 				important: false
 			},
-		]
+		],
+		badges: ["fw"]
 	},
 	// MasterofGrey
 	masterofgrey: {
