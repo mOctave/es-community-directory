@@ -427,7 +427,7 @@ const DIRECTORY = {
 		country: "AU",
 		github: "https://github.com/DarcyManoel",
 		roles: ["Moderator"],
-		description: `Discord moderator and original creator of Omnis and the Endless Sky Creator's Handbook, as well as a number of other development tools. Left the community at the end of October.`,
+		description: `Discord moderator and original creator of Omnis and the Endless Sky Creator's Handbook, as well as a number of other development tools. Left the community at the end of October 2025.`,
 		quote: `"Faction authors rule the world."`,
 	},
 	// Derpy Horse
