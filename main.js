@@ -587,7 +587,7 @@ const DIRECTORY = {
 		country: "SA",
 		github: "https://github.com/TheGiraffe3",
 		roles: ["Reviewer", "Writing Patrol", "Mission Patrol"],
-		description: `Content reviewer who admires long mission chains. Creator of a few plugins and current maintainer of Omnis.`,
+		description: `Content reviewer who admires long mission chains. Creator of a few plugins and the current maintainer of Omnis.`,
 		quote: `"Don't use commas. And periods, wrong."`,
 		projects: [
 			{
