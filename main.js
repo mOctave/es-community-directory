@@ -216,7 +216,7 @@ const DIRECTORY = {
 		// A URL leading to your avatar. If you link it to a GitHub avatar, it will
 		// automatically update.
 		avatar: "https://avatars.githubusercontent.com/octocat",
-		// 0 = Active, 1 = On Hiatus, 2 = No longer active
+		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
 		status: 1,
 		// Your prefered pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
