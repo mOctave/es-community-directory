@@ -686,7 +686,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/MCOfficer",
 		roles: ["Developer"],
-		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community but shows up occasionally to help fix James, Serves as the main Collaborator for the official plugin archive.`,
+		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community but shows up occasionally to help fix James and manage the official plugin archive.`,
 		quote: `"See, this is why I do Rust."`,
 		projects: [
 			{
