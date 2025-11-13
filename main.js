@@ -216,7 +216,7 @@ const DIRECTORY = {
 		// A URL leading to your avatar. If you link it to a GitHub avatar, it will
 		// automatically update.
 		avatar: "https://avatars.githubusercontent.com/octocat",
-		// 0 = Active, 1 = On Hiatus, 2 = No longer active
+		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
 		status: 1,
 		// Your prefered pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
@@ -681,12 +681,12 @@ const DIRECTORY = {
 			discord: "M*C*O"
 		},
 		avatar: "https://avatars.githubusercontent.com/MCOfficer",
-		status: 2,
+		status: 0,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/MCOfficer",
 		roles: ["Developer"],
-		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community but shows up occasionally to help fix James when he goes off the rails.`,
+		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community but shows up occasionally to help fix James and manage the official plugin archive.`,
 		quote: `"See, this is why I do Rust."`,
 		projects: [
 			{
