@@ -463,7 +463,7 @@ const DIRECTORY = {
 	ferociousfeind: {
 		name: "Ferociousfeind",
 		aka: {},
-		avatar: "https://cdn.discordapp.com/avatars/532596743976779783/29f852b58ab94cb065555b5ef7472ef2",
+		avatar: "https://cdn.discordapp.com/avatars/532596743976779783/dbd2213bedec02d65d7cb90b458b3563",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
