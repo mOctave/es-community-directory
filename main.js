@@ -272,7 +272,7 @@ const DIRECTORY = {
 	_1010todd: {
 		name: "1010todd",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/1010todd.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/_1010todd.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -408,7 +408,7 @@ const DIRECTORY = {
 		aka: {
 			github: "danaris"
 		},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/delvinanaris.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/delvin_anaris.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -421,7 +421,7 @@ const DIRECTORY = {
 	darcy_manoel: {
 		name: "Darcy Manoel",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/darcymanoel.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/darcy_manoel.png",
 		status: 2,
 		pronouns: "he/him",
 		country: "AU",
@@ -436,7 +436,7 @@ const DIRECTORY = {
 		aka: {
 			github: "Amazinite"
 		},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/derpyhorse.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/derpy_horse.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -476,7 +476,7 @@ const DIRECTORY = {
 	gefullte_taubenbrust: {
 		name: "Gefüllte Taubenbrust",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/gefulltetaubenbrust.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/gefullte_taubenbrust.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "DE",
@@ -551,7 +551,7 @@ const DIRECTORY = {
 		aka: {
 			github: "Galaucus"
 		},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/galaucus.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/lake.png",
 		status: 2,
 		pronouns: "they/them",
 		country: "",
@@ -580,7 +580,7 @@ const DIRECTORY = {
 		aka: {
 			github: "TheGiraffe3",
 		},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/thegiraffe3.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/loymdayddaud.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "SA",
@@ -650,7 +650,7 @@ const DIRECTORY = {
 		aka: {
 			github: "endless-sky"
 		},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/endless-sky.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/mz.png",
 		status: 2,
 		pronouns: "he/him",
 		country: "",
@@ -749,7 +749,7 @@ const DIRECTORY = {
 	nana_scone: {
 		name: "Nana Scone",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/nanascone.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/nana_scone.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -852,7 +852,7 @@ const DIRECTORY = {
 	reticent_rem: {
 		name: "reticent-rem",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/reticent-rem.png",
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/images/avatars/reticent_rem.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
