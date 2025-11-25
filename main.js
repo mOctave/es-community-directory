@@ -79,7 +79,7 @@ const ROLE_INFO = {
 	},
 	"Moderator": {
 		class: "discord-role moderator",
-		tooltip: "This person is responsible for organizing and maintaining the community."
+		tooltip: "This person is responsible for moderating the community."
 	},
 	"Reviewer": {
 		class: "discord-role reviewer",
@@ -131,7 +131,7 @@ const ROLE_INFO = {
 	},
 	"Mission Patrol": {
 		class: "github-role mission-patrol",
-		tooltip: "This person does writing review."
+		tooltip: "This person does mission structure review."
 	},
 	"Discord Admin": {
 		class: "admin-role",
