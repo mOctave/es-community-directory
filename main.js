@@ -398,7 +398,7 @@ const DIRECTORY = {
 		country: "US",
 		github: "https://github.com/Daeridanii1",
 		roles: ["Reviewer", "Art Patrol"],
-		description: `Artist responsible for creating the Successors and DAIS ship plugin. Fond of flowers and good organization.`,
+		description: `Artist responsible for creating the Successors and the DAIS ship plugin. Fond of flowers and good organization.`,
 		quote: `"Endless quantities of digital spaceship."`,
 		badges: ["successor"],
 		projects: [
