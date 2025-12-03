@@ -398,9 +398,17 @@ const DIRECTORY = {
 		country: "US",
 		github: "https://github.com/Daeridanii1",
 		roles: ["Reviewer", "Art Patrol"],
-		description: `3D modeller and creator of the Successors, as well as the DAIS ship plugin. Hasn't been all that active lately.`,
+		description: `Artist responsible for creating the Successors and DAIS ship plugin. Fond of flowers and good organization.`,
 		quote: `"Endless quantities of digital spaceship."`,
-		badges: ["successor"]
+		badges: ["successor"],
+		projects: [
+			{
+				name: "DAIS",
+				type: "plugin",
+				url: "https://github.com/Daeridanii1/DAIS",
+				important: true
+			}
+		]
 	},
 	// Delvin Anaris
 	delvin_anaris: {
