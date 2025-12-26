@@ -937,7 +937,7 @@ const DIRECTORY = {
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tadrix.png",
 		status: 2,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/Tadrix",
 		roles: ["Privateer"],
