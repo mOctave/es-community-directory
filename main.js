@@ -636,7 +636,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/MasterOfGrey",
 		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
-		description: `Generally inactive community organizer involved with work on the Hai and leading the bording rework project. Shows up from time to time.`,
+		description: `Generally inactive community organizer involved with work on the Hai and leading the boarding rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
 	},
 	// MidnightPlugins
