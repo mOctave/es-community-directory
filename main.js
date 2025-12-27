@@ -200,7 +200,7 @@ const BADGE_TOOLTIPS = {
 const DIRECTORY = {
 	// Template
 	template: {
-		// Your preffered or most common username.
+		// Your preferred or most common username.
 		name: "Template",
 		// If you use significantly different usernames on different platforms,
 		// you can put one or two of them here. Remember to keep it to platforms
@@ -218,7 +218,7 @@ const DIRECTORY = {
 		avatar: "https://avatars.githubusercontent.com/octocat",
 		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
 		status: 1,
-		// Your prefered pronouns. If you don't care, keep it as they/them.
+		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
 		// The two-letter ISO country code corresponding to the country you live in.
 		// Leave this blank if you don't want that to be public information.
