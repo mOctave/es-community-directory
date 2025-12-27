@@ -200,7 +200,7 @@ const BADGE_TOOLTIPS = {
 const DIRECTORY = {
 	// Template
 	template: {
-		// Your preffered or most common username.
+		// Your preferred or most common username.
 		name: "Template",
 		// If you use significantly different usernames on different platforms,
 		// you can put one or two of them here. Remember to keep it to platforms
@@ -218,7 +218,7 @@ const DIRECTORY = {
 		avatar: "https://avatars.githubusercontent.com/octocat",
 		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
 		status: 1,
-		// Your prefered pronouns. If you don't care, keep it as they/them.
+		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
 		// The two-letter ISO country code corresponding to the country you live in.
 		// Leave this blank if you don't want that to be public information.
@@ -464,7 +464,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/EjoThims",
 		roles: ["Writing Patrol", "Theme Patrol"],
-		description: `One of the original writing reviewers and the creator of a couple of minor plugins. Unfortunately hasn't been seen at all in the community since mid-2024.`,
+		description: `One of the original writing reviewers and the creator of a couple of minor plugins. Unfortunately, hasn't been seen at all in the community since mid-2024.`,
 		quote: `"Anyone can review a pull request, even you!"`,
 	},
 	// Ferociousfeind
@@ -565,7 +565,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/Galaucus",
 		roles: ["Core Member"],
-		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in Feburary 2025 after a long period of inactivity.`,
+		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in February 2025 after a long period of inactivity.`,
 		quote: `"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag."`,
 		badges: ["pirate"]
 	},
@@ -636,7 +636,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/MasterOfGrey",
 		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
-		description: `Generally inactive community organizer involved with work on the Hai and leading the bording rework project. Shows up from time to time.`,
+		description: `Generally inactive community organizer involved with work on the Hai and leading the boarding rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
 	},
 	// MidnightPlugins
@@ -693,7 +693,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/MCOfficer",
 		roles: ["Developer"],
-		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community but shows up occasionally to help fix James and manage the official plugin archive.`,
+		description: `Old CI/CD-focused dev and the creator of ESLauncher2. Usually avoids the community, but shows up occasionally to help fix James and manage the official plugin archive.`,
 		quote: `"See, this is why I do Rust."`,
 		projects: [
 			{
