@@ -216,7 +216,7 @@ const DIRECTORY = {
 		// A URL leading to your avatar. If you link it to a GitHub avatar, it will
 		// automatically update.
 		avatar: "https://avatars.githubusercontent.com/octocat",
-		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
+		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
 		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
@@ -1285,10 +1285,14 @@ function makeDirectoryCard(obj, id) {
 				.replaceAll("$STATUS-DESC$", "Active")
 			break;
 		case 1:
+			card = card.replaceAll("$STATUS-CLASS$", "inactive")
+				.replaceAll("$STATUS-DESC$", "Inactive")
+			break;
+		case 2:
 			card = card.replaceAll("$STATUS-CLASS$", "hiatus")
 				.replaceAll("$STATUS-DESC$", "On Hiatus")
 			break;
-		case 2:
+		case 3:
 			card = card.replaceAll("$STATUS-CLASS$", "old-member")
 				.replaceAll("$STATUS-DESC$", "Old Member")
 			break;
