@@ -1446,7 +1446,7 @@ function makeDirectoryCard(obj, id) {
 
 		if (obj.badges) {
 			for (let badge of obj.badges) {
-				const leaderlessbadge = badge.replace(/ lead$/, "");
+				const leaderlessbadge = badge.replace(" lead", "");
 				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${leaderlessbadge}.png"/></span>`
 			}
 		}
