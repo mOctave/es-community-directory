@@ -165,15 +165,21 @@ const BADGE_TOOLTIPS = {
 	"arach": "This person likes the Arachi.",
 	"archon": "This person likes the Archons.",
 	"avgi": "This person likes the Avgi.",
+	"avgi lead": "This person has done a lot of work on the Avgi.",
 	"bunrodea": "This person likes the Bunrodea.",
+	"bunrodea lead": "This person has done a lot of work on the Bunrodea.",
 	"compass": "This person likes the compass logo?",
 	"efret": "This person likes the Kor Efret.",
 	"email": "This person likes to abuse the badge system.",
 	"exile": "This person likes the Korath Exiles.",
+	"exile lead": "This person has done a lot of work on the Korath Exiles.",
 	"fw": "This person likes the Free Worlds.",
 	"gegno": "This person likes the Gegno.",
+	"gegno lead": "This person has done a lot of work on the Gegno.",
 	"hai": "This person likes the Hai.",
+	"hai lead": "This person has done a lot of work on the Hai.",
 	"heliarch": "This person likes the Heliarchs.",
+	"heliarch lead": "This person has done a lot of work on the Heliarch.",
 	"incipias": "This person likes the Incipias.",
 	"ka'het": "This person likes the Ka'het.",
 	"kimek": "This person likes the Kimek.",
@@ -190,6 +196,7 @@ const BADGE_TOOLTIPS = {
 	"subsidurial": "Subsidurial!!",
 	"successor": "This person likes the Successors.",
 	"syndicate": "This person likes the Syndicate.",
+	"uhai lead": "This person has done a lot of work on the Unfettered Hai.",
 	"unfettered": "This person likes the Unfettered Hai.",
 	"wanderer": "This person likes the Wanderers.",
 }
@@ -329,7 +336,7 @@ const DIRECTORY = {
 				important: true
 			},
 		],
-		badges: ["arach"]
+		badges: ["arach", "heliarch lead", "kimek", "saryd"]
 	},
 	// Azure
 	azure: {
@@ -343,7 +350,7 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `Realism addict who adores the color blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
 		quote: `"List me down as an Arachi alt."`,
-		badges: ["avgi"]
+		badges: ["avgi lead"]
 	},
 	// beccabunny
 	beccabunny: {
@@ -452,7 +459,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Discord Admin", "GitHub Admin"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
-		badges: ["bunrodea"]
+		badges: ["bunrodea lead"]
 	},
 	// EjoThims
 	ejothims: {
@@ -538,7 +545,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Code Patrol"],
 		description: `Code reviewer who's played a large part in developing Hai and Unfettered content. Possibly one of the only ES higher-ups who's actually played the game recently.`,
 		quote: `"I like coding. But that's not all I'm about."`,
-		badges: ["unfettered"]
+		badges: ["unfettered lead"]
 	},
 	// Koranir
 	koranir: {
@@ -638,6 +645,7 @@ const DIRECTORY = {
 		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
 		description: `Generally inactive community organizer involved with work on the Hai and leading the boarding rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
+		badges: ["hai"]
 	},
 	// MidnightPlugins
 	midnightplugins: {
@@ -854,7 +862,7 @@ const DIRECTORY = {
 		roles: ["Former Member"],
 		description: `Former Korath writer who also created artwork, did some sound editing, and wrote a little bit of C++ code on the side. Has left the community but can occasionally still be found on Swizzle Six.`,
 		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`,
-		badges: ["exile", "efret"]
+		badges: ["exile lead", "efret"]
 	},
 	// reticent-rem
 	reticent_rem: {
@@ -929,7 +937,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Maintainer", "Art Patrol"],
 		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, now also doing a significant amount of content review and writing as well.`,
 		quote: `"Down with tangents, up with overlaps."`,
-		badges: ["gegno"]
+		badges: ["gegno lead"]
 	},
 	// Tadrix
 	tadrix: {
@@ -1438,7 +1446,8 @@ function makeDirectoryCard(obj, id) {
 
 		if (obj.badges) {
 			for (let badge of obj.badges) {
-				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${badge}.png"/></span>`
+				const leaderlessbadge = badge.replace(/-lead$/, "");
+				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${leaderlessbadge}.png"/></span>`
 			}
 		}
 
