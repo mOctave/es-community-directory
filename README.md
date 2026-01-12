@@ -8,7 +8,7 @@ Ever suddenly forget who the person you're talking to is? New to the community a
 
 Everyone is welcome to add themselves to the directory or request to be added. You can do this in one of two ways:
 
-- If you're good with GitHub, fill out `template.js` and open a PR adding your card to the `DIRECTORY` object in `main.js`.
+- If you're good with GitHub, fill out `template.js`, add your profile picture to /img/avatars/yourname.png and open a PR adding your card to the `DIRECTORY` object in `main.js`.
 - If you're not comfortable with PRs or JSON syntax, open an issue using the "Add Request" template and I'll add you when I have time.
 
 I may also add some members of the community myself. If I add you to the directory without you giving me anything to add, you'll have some default fields and I'll try to put something reasonably descriptive nice on your card. If you're not happy with your card, feel free to open an issue or PR requesting a change.

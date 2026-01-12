@@ -23,7 +23,7 @@ body:
     id: avatar
     attributes:
       label: Avatar
-      description: Please link to your avatar here. If you use an avatars.githubusercontent URL, it should automatically update when you change your GitHub avatar.
+      description: Please link to your avatar here. You can also upload an image to use.
       placeholder: https://avatars.githubusercontent.com/octocat
     validations:
       required: true
