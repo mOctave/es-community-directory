@@ -38,6 +38,6 @@ Platform-specific names are listed for clarity, but some people change their use
 There's no clear distinction between the four statuses, but they generally work as follows:
 
 - Active members are people who've been around recently and are still contributing to the community. Usually, anyone who's been around in the last couple of months is considered active.
-- Inactive members are people who have been seen semi-recently, but haven't been gone long enough to be on hiatus.
+- Inactive members are people who can be contacted, but no longer engage with the community or contribute.
 - Members on hiatus are people who haven't been seen in a while, but are likely to return eventually.
 - Old Members are typically people who haven't been active in a mainstream ES community for at least several months and generally a year or more. They *probably* aren't coming back, but who knows?
