@@ -116,6 +116,10 @@ MARK: Cards
 	color: rgb(30, 220, 40);
 }
 
+.inactive {
+	color: rgb(160, 110, 0);
+}
+
 .hiatus {
 	color: rgb(160, 110, 0);
 }

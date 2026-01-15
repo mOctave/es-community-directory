@@ -40,7 +40,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		},
 		// Your avatar image in the directory.
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/yourname.png",
-		// 0 = Active, 1 = On Hiatus, 2 = Old Member
+		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
 		// Your prefered pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
