@@ -225,10 +225,9 @@ const DIRECTORY = {
 			reddit: "Reddit Name",
 			steam: "Steam Name"
 		},
-		// A URL leading to your avatar. If you link it to a GitHub avatar, it will
-		// automatically update.
-		avatar: "https://avatars.githubusercontent.com/octocat",
-		// 0 = Active, 1 = On Hiatus, 2 = Old Member (No longer active)
+		// Your avatar image in the directory.
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/yourname.png",
+		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
 		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
@@ -442,7 +441,7 @@ const DIRECTORY = {
 		name: "Darcy Manoel",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/darcy_manoel.png",
-		status: 2,
+		status: 3,
 		pronouns: "he/him",
 		country: "AU",
 		github: "https://github.com/DarcyManoel",
@@ -471,7 +470,7 @@ const DIRECTORY = {
 		name: "EjoThims",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/ejothims.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/EjoThims",
@@ -572,7 +571,7 @@ const DIRECTORY = {
 			github: "Galaucus"
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/lake.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Galaucus",
@@ -586,7 +585,7 @@ const DIRECTORY = {
 		name: "LocalGod",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/localgod.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/LocalGod79",
@@ -643,7 +642,7 @@ const DIRECTORY = {
 			discord: "Græy"
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/masterofgrey.png",
-		status: 1,
+		status: 2,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/MasterOfGrey",
@@ -672,7 +671,7 @@ const DIRECTORY = {
 			github: "endless-sky"
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/mz.png",
-		status: 2,
+		status: 3,
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/endless-sky",
@@ -797,7 +796,7 @@ const DIRECTORY = {
 		name: "Pointedstick",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/pointedstick.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Pointedstick",
@@ -839,7 +838,7 @@ const DIRECTORY = {
 		name: "quyykk",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/quyykk.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/quyykk",
@@ -860,7 +859,7 @@ const DIRECTORY = {
 		name: "ravenshining",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/ravenshining.png",
-		status: 2,
+		status: 3,
 		pronouns: "she/her",
 		country: "",
 		github: "https://github.com/ravenshining",
@@ -887,7 +886,7 @@ const DIRECTORY = {
 		name: "RisingLeaf",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/risingleaf.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/RisingLeaf",
@@ -922,7 +921,7 @@ const DIRECTORY = {
 		name: "samrocketman",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/samrocketman.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/samrocketman",
@@ -949,7 +948,7 @@ const DIRECTORY = {
 		name: "Tadrix",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tadrix.png",
-		status: 2,
+		status: 3,
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/Tadrix",
@@ -962,7 +961,7 @@ const DIRECTORY = {
 		name: "tehhowch",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tehhowch.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/tehhowch",
@@ -975,7 +974,7 @@ const DIRECTORY = {
 		name: "Terin",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/terin.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Terin",
@@ -988,7 +987,7 @@ const DIRECTORY = {
 		name: "TheMarksman",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/themarksman.png",
-		status: 1,
+		status: 2,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/TheMarksman-ES",
@@ -1052,7 +1051,7 @@ const DIRECTORY = {
 		name: "W1zrad",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/w1zrad.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/W1zrad",
@@ -1065,7 +1064,7 @@ const DIRECTORY = {
 		name: "Warlord Mike",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/warlord_mike.png",
-		status: 1,
+		status: 2,
 		pronouns: "they/them",
 		country: "",
 		github: "",
@@ -1096,7 +1095,7 @@ const DIRECTORY = {
 			discord: "Wurzel",
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/wrzlprnft.png",
-		status: 2,
+		status: 3,
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/Wrzlprnft",
@@ -1136,7 +1135,7 @@ const DIRECTORY = {
 		name: "Zitchas",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/zitchas.png",
-		status: 2,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Zitchas",
@@ -1298,10 +1297,14 @@ function makeDirectoryCard(obj, id) {
 				.replaceAll("$STATUS-DESC$", "Active")
 			break;
 		case 1:
+			card = card.replaceAll("$STATUS-CLASS$", "inactive")
+				.replaceAll("$STATUS-DESC$", "Inactive")
+			break;
+		case 2:
 			card = card.replaceAll("$STATUS-CLASS$", "hiatus")
 				.replaceAll("$STATUS-DESC$", "On Hiatus")
 			break;
-		case 2:
+		case 3:
 			card = card.replaceAll("$STATUS-CLASS$", "old-member")
 				.replaceAll("$STATUS-DESC$", "Old Member")
 			break;

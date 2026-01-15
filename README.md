@@ -8,7 +8,7 @@ Ever suddenly forget who the person you're talking to is? New to the community a
 
 Everyone is welcome to add themselves to the directory or request to be added. You can do this in one of two ways:
 
-- If you're good with GitHub, fill out `template.js` and open a PR adding your card to the `DIRECTORY` object in `main.js`.
+- If you're good with GitHub, fill out `template.js`, add your profile picture (named with your username) to `/img/avatars/`, and open a PR adding your card to the `DIRECTORY` object in `main.js`.
 - If you're not comfortable with PRs or JSON syntax, open an issue using the "Add Request" template and I'll add you when I have time.
 
 I may also add some members of the community myself. If I add you to the directory without you giving me anything to add, you'll have some default fields and I'll try to put something reasonably descriptive nice on your card. If you're not happy with your card, feel free to open an issue or PR requesting a change.
@@ -33,10 +33,11 @@ Many people choose to include a projects section when they request to be added t
 
 Platform-specific names are listed for clarity, but some people change their usernames quite frequently, so the names you see on the directory aren't necessarily *exactly* the same as the ones on other platforms. In general, alternate names are meant to provide a guide to figuring out who someone is when their names are significantly different on different platforms.
 
-### What's the difference between "Active," "On Hiatus," and "Old Member"?
+### What's the difference between "Active," "Inactive," "On Hiatus," and "Old Member"?
 
-There's no clear distinction between the three statuses, but they generally work as follows:
+There's no clear distinction between the four statuses, but they generally work as follows:
 
 - Active members are people who've been around recently and are still contributing to the community. Usually, anyone who's been around in the last couple of months is considered active.
+- Inactive members are people who can be contacted, but no longer engage with the community or contribute.
 - Members on hiatus are people who haven't been seen in a while, but are likely to return eventually.
 - Old Members are typically people who haven't been active in a mainstream ES community for at least several months and generally a year or more. They *probably* aren't coming back, but who knows?
