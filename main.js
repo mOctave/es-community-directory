@@ -165,32 +165,44 @@ const BADGE_TOOLTIPS = {
 	"arach": "This person likes the Arachi.",
 	"archon": "This person likes the Archons.",
 	"avgi": "This person likes the Avgi.",
+	"avgi lead": "This person has done a lot of work on the Avgi.",
 	"bunrodea": "This person likes the Bunrodea.",
+	"bunrodea lead": "This person has done a lot of work on the Bunrodea.",
 	"compass": "This person likes the compass logo?",
 	"efret": "This person likes the Kor Efret.",
 	"email": "This person likes to abuse the badge system.",
 	"exile": "This person likes the Korath Exiles.",
+	"exile lead": "This person has done a lot of work on the Korath Exiles.",
 	"fw": "This person likes the Free Worlds.",
 	"gegno": "This person likes the Gegno.",
+	"gegno lead": "This person has done a lot of work on the Gegno.",
 	"hai": "This person likes the Hai.",
+	"hai lead": "This person has done a lot of work on the Hai.",
 	"heliarch": "This person likes the Heliarchs.",
+	"heliarch lead": "This person has done a lot of work on the Heliarch.",
 	"incipias": "This person likes the Incipias.",
+	"incipias lead": "This person has done a lot of work on the Incipias.",
 	"ka'het": "This person likes the Ka'het.",
+	"ka'het lead": "This person has done a lot of work on the Ka'het.",
 	"kimek": "This person likes the Kimek.",
 	"merchant": "This person likes human merchants.",
 	"mereti": "This person likes the Kor Mereri.",
 	"pirate": "This person likes pirates.",
+	"pirate lead": "This person has done a lot of work on the pirates.",
 	"pug": "This person likes the Pug.",
 	"quarg": "This person likes the Quarg.",
 	"remnant": "This person likes the Remnant.",
+	"remnant lead": "This person has done a lot of work on the Remnant.",
 	"republic": "This person likes the Republic.",
 	"saryd": "This person likes the Saryds.",
 	"sestor": "This person likes the Kor Sestor.",
 	"sheragi": "This person likes the Sheragi.",
 	"subsidurial": "Subsidurial!!",
 	"successor": "This person likes the Successors.",
+	"successor lead": "This person has done a lot of work on the Successors.",
 	"syndicate": "This person likes the Syndicate.",
 	"unfettered": "This person likes the Unfettered Hai.",
+	"unfettered lead": "This person has done a lot of work on the Unfettered Hai.",
 	"wanderer": "This person likes the Wanderers.",
 }
 
@@ -328,7 +340,7 @@ const DIRECTORY = {
 				important: true
 			},
 		],
-		badges: ["arach"]
+		badges: ["heliarch lead", "arach", "kimek", "saryd"]
 	},
 	// Azure
 	azure: {
@@ -342,7 +354,7 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `Realism addict who adores the color blue and a certain species of atomic space dragonflies. The reason Endless Sky doesn't work on your computer anymore.`,
 		quote: `"List me down as an Arachi alt."`,
-		badges: ["avgi"]
+		badges: ["avgi lead"]
 	},
 	// beccabunny
 	beccabunny: {
@@ -359,7 +371,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Art Patrol"],
 		description: `Artist who also does content creation for the Builders and the Ka'het. Also happens to be the namesake of one of the oddest person ships in the game.`,
 		quote: `"I'm just a normal minor planet trying its best to ignore the law of gravity."`,
-		badges: ["ka'het"]
+		badges: ["ka'het lead"]
 	},
 	// bene_dictator
 	bene_dictator: {
@@ -399,7 +411,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Art Patrol"],
 		description: `Artist responsible for creating the Successors and the DAIS ship plugin. Fond of flowers and good organization.`,
 		quote: `"Endless quantities of digital spaceship."`,
-		badges: ["successor"],
+		badges: ["successor lead"],
 		projects: [
 			{
 				name: "DAIS",
@@ -451,7 +463,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Discord Admin", "GitHub Admin"],
 		description: `Current lead developer of Endless Sky in MZ's absence. Known for mass-closing PRs whenever he's on his "villain arc," but is otherwise pretty benevolent.`,
 		quote: `"There is nothing new under the sun."`,
-		badges: ["bunrodea"]
+		badges: ["bunrodea lead"]
 	},
 	// EjoThims
 	ejothims: {
@@ -537,7 +549,7 @@ const DIRECTORY = {
 		roles: ["Reviewer", "Code Patrol"],
 		description: `Code reviewer who's played a large part in developing Hai and Unfettered content. Possibly one of the only ES higher-ups who's actually played the game recently.`,
 		quote: `"I like coding. But that's not all I'm about."`,
-		badges: ["unfettered"]
+		badges: ["unfettered lead"]
 	},
 	// Koranir
 	koranir: {
@@ -566,7 +578,7 @@ const DIRECTORY = {
 		roles: ["Core Member"],
 		description: `One of the original major driving forces in creating a pirate campaign. Officially stepped back from piracy in February 2025 after a long period of inactivity.`,
 		quote: `"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag."`,
-		badges: ["pirate"]
+		badges: ["pirate lead"]
 	},
 	// LocalGod
 	localgod: {
@@ -637,6 +649,7 @@ const DIRECTORY = {
 		roles: ["Community Organizer", "Moderator", "Theme Patrol"],
 		description: `Generally inactive community organizer involved with work on the Hai and leading the boarding rework project. Shows up from time to time.`,
 		quote: `"Crusading for community."`,
+		badges: ["hai lead"]
 	},
 	// MidnightPlugins
 	midnightplugins: {
@@ -853,7 +866,7 @@ const DIRECTORY = {
 		roles: ["Former Member"],
 		description: `Former Korath writer who also created artwork, did some sound editing, and wrote a little bit of C++ code on the side. Has left the community but can occasionally still be found on Swizzle Six.`,
 		quote: `"Sorry, a Mereti ghost got hold of my phone for a sec."`,
-		badges: ["exile", "efret"]
+		badges: ["exile lead", "efret"]
 	},
 	// reticent-rem
 	reticent_rem: {
@@ -880,7 +893,7 @@ const DIRECTORY = {
 		roles: ["Former Member"],
 		description: `Former code reviewer and C++ programmer who is also the creator of the Incipias. Left the community in September 2024.`,
 		quote: `"We make ES so performant that no one notices that 80% of it is crypto mining."`,
-		badges: ["incipias"]
+		badges: ["incipias lead"]
 	},
 	// roadrunner56
 	roadrunner56: {
@@ -928,7 +941,7 @@ const DIRECTORY = {
 		roles: ["Developer", "Maintainer", "Art Patrol"],
 		description: `Art developer and creator of the Gegno. One of the most active ES devs on Discord, now also doing a significant amount of content review and writing as well.`,
 		quote: `"Down with tangents, up with overlaps."`,
-		badges: ["gegno"]
+		badges: ["gegno lead"]
 	},
 	// Tadrix
 	tadrix: {
@@ -1129,7 +1142,7 @@ const DIRECTORY = {
 		roles: ["Core Member", "Theme Patrol"],
 		description: `Former GitHub administrator and Remnant writer, at one time very heavily involved in both code and content creation. Left the community but can still occasionally be found on Swizzle Six.`,
 		quote: `"May the Embers burn bright for you."`,
-		badges: ["remnant"]
+		badges: ["remnant lead"]
 	},
 	// Zoura
 	zoura: {
@@ -1441,7 +1454,8 @@ function makeDirectoryCard(obj, id) {
 
 		if (obj.badges) {
 			for (let badge of obj.badges) {
-				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${badge}.png"/></span>`
+				let leaderlessbadge = badge.replace(" lead", "");
+				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="img/${leaderlessbadge}.png"/></span>`
 			}
 		}
 
