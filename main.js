@@ -921,7 +921,7 @@ const DIRECTORY = {
 		name: "samrocketman",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/samrocketman.png",
-		status: 1,
+		status: 0,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/samrocketman",
