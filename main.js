@@ -284,7 +284,7 @@ const DIRECTORY = {
 		name: "1010todd",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/_1010todd.png",
-		status: 0,
+		status: 2,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/1010todd",
@@ -296,7 +296,7 @@ const DIRECTORY = {
 	anarchist2: {
 		name: "Anarchist2",
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/anarchist2.png",
-		status: 0,
+		status: 2,
 		pronouns: "she/her",
 		country: "",
 		github: "https://github.com/Anarchist2",
@@ -360,7 +360,7 @@ const DIRECTORY = {
 	beccabunny: {
 		name: "beccabunny",
 		aka: {
-			discord: "b... mia b...",
+			discord: "b...",
 			name: "Becca Tommaso"
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/beccabunny.png",
@@ -428,12 +428,12 @@ const DIRECTORY = {
 			github: "danaris"
 		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/delvin_anaris.png",
-		status: 0,
+		status: 2,
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/danaris",
 		roles: ["Core Member", "Oathkeeper"],
-		description: `Core member and GitHub moderator who is generally active on Discord and rarely appears on GitHub.`,
+		description: `Core member and GitHub moderator who is mainly participates on Discord and rarely appears on GitHub.`,
 		quote: `"Please remove all talk of aliens from this channel."`,
 	},
 	// Darcy Manoel
@@ -878,7 +878,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/reticent-rem",
 		roles: ["Reviewer", "Writing Patrol"],
-		description: `A newer writing reviewer who is also responsible for the creation of a number of culture conversations, bug fixes, and the Syndicate business mission chain.`,
+		description: `A newer writing reviewer who is also responsible for the creation of a number of culture conversations, bug fixes, and the Syndicate business mission chain. Disappeared in December 2025.`,
 		quote: `"I like pea soup as a nice, light springtime dish."`,
 	},
 	// RisingLeaf
@@ -1019,16 +1019,13 @@ const DIRECTORY = {
 	// tibetiroka
 	tibetiroka: {
 		name: "tibetiroka",
-		aka: {
-			discord: "I touched the images again"
-		},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tibetiroka.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/tibetiroka",
 		roles: ["Developer", "Maintainer", "Code Patrol", "Writing Patrol"],
-		description: `Developer, code and writing reviewer, and CI/CD master. Has recently been foolishly touching images.`,
+		description: `Developer, code and writing reviewer, and CI/CD master.`,
 		quote: `"It's just the Steam CI, no need to panic."`,
 	},
 	// TomGoodIdea
