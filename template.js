@@ -25,7 +25,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 	// Template
 	template: {
-		// Your preffered or most common username.
+		// Your preferred or most common username.
 		name: "Template",
 		// If you use significantly different usernames on different platforms,
 		// you can put one or two of them here. Remember to keep it to platforms
@@ -42,7 +42,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		avatar: "./img/avatars/yourname.png",
 		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
-		// Your prefered pronouns. If you don't care, keep it as they/them.
+		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
 		// The two-letter ISO country code corresponding to the country you live in.
 		// Leave this blank if you don't want that to be public information.
