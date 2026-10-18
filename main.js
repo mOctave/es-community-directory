@@ -514,7 +514,7 @@ const DIRECTORY = {
 		country: "US",
 		github: "https://github.com/Hecter94",
 		roles: ["Community Organizer", "GitHub Admin"],
-		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
+		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, stream archive and both the official and unofficial plugin archives, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
 		quote: `"Friendly but vaguely threatening."`,
 		projects: [
 			{
