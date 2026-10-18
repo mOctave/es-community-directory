@@ -283,7 +283,7 @@ const DIRECTORY = {
 	_1010todd: {
 		name: "1010todd",
 		aka: {},
-		avatar: "./public/avatars/_1010todd.png",
+		avatar: "./public/avatars/1010todd.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
