@@ -39,7 +39,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			steam: "Steam Name"
 		},
 		// Your avatar image in the directory.
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/yourname.png",
+		avatar: "./img/avatars/yourname.png",
 		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
 		// Your preferred pronouns. If you don't care, keep it as they/them.
