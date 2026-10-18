@@ -626,12 +626,6 @@ const DIRECTORY = {
 				url: "https://github.com/EndlessSkyCommunity/-Omnis",
 				important: true
 			},
-			{
-				name: "Jibauni",
-				type: "plugin",
-				url: "https://github.com/TheGiraffe3/Jibauni",
-				important: false
-			},
 		],
 		badges: ["fw"]
 	},
