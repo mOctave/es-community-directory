@@ -226,7 +226,7 @@ const DIRECTORY = {
 			steam: "Steam Name"
 		},
 		// Your avatar image in the directory.
-		avatar: "./avatars/yourname.png",
+		avatar: "./public/avatars/yourname.png",
 		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 1,
 		// Your preferred pronouns. If you don't care, keep it as they/them.
@@ -283,7 +283,7 @@ const DIRECTORY = {
 	_1010todd: {
 		name: "1010todd",
 		aka: {},
-		avatar: "./avatars/_1010todd.png",
+		avatar: "./public/avatars/_1010todd.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -295,7 +295,7 @@ const DIRECTORY = {
 	// Anarchist2
 	anarchist2: {
 		name: "Anarchist2",
-		avatar: "./avatars/anarchist2.png",
+		avatar: "./public/avatars/anarchist2.png",
 		status: 0,
 		pronouns: "she/her",
 		country: "",
@@ -312,7 +312,7 @@ const DIRECTORY = {
 			reddit: "ArachiUnderYourBed",
 			steam: "fgnt"
 		},
-		avatar: "./avatars/arachi.png",
+		avatar: "./public/avatars/arachi.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "BR",
@@ -346,7 +346,7 @@ const DIRECTORY = {
 	azure: {
 		name: "Azure",
 		aka: {},
-		avatar: "./avatars/azure.png",
+		avatar: "./public/avatars/azure.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -363,7 +363,7 @@ const DIRECTORY = {
 			discord: "b... mia b...",
 			name: "Becca Tommaso"
 		},
-		avatar: "./avatars/beccabunny.png",
+		avatar: "./public/avatars/beccabunny.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "IT",
@@ -377,7 +377,7 @@ const DIRECTORY = {
 	bene_dictator: {
 		name: "bene_dictator",
 		aka: {},
-		avatar: "./avatars/bene_dictator.png",
+		avatar: "./public/avatars/bene_dictator.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -390,7 +390,7 @@ const DIRECTORY = {
 	corraban: {
 		name: "Corraban",
 		aka: {},
-		avatar: "./avatars/corraban.png",
+		avatar: "./public/avatars/corraban.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -403,7 +403,7 @@ const DIRECTORY = {
 	daeridanii: {
 		name: "Daeridanii",
 		aka: {},
-		avatar: "./avatars/daeridanii.png",
+		avatar: "./public/avatars/daeridanii.png",
 		status: 0,
 		pronouns: "she/her",
 		country: "US",
@@ -427,7 +427,7 @@ const DIRECTORY = {
 		aka: {
 			github: "danaris"
 		},
-		avatar: "./avatars/delvin_anaris.png",
+		avatar: "./public/avatars/delvin_anaris.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -440,7 +440,7 @@ const DIRECTORY = {
 	darcy_manoel: {
 		name: "Dar",
 		aka: {},
-		avatar: "./avatars/darcy_manoel.png",
+		avatar: "./public/avatars/darcy_manoel.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "AU",
@@ -455,7 +455,7 @@ const DIRECTORY = {
 		aka: {
 			github: "Amazinite"
 		},
-		avatar: "./avatars/derpy_horse.png",
+		avatar: "./public/avatars/derpy_horse.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -469,7 +469,7 @@ const DIRECTORY = {
 	ejothims: {
 		name: "EjoThims",
 		aka: {},
-		avatar: "./avatars/ejothims.png",
+		avatar: "./public/avatars/ejothims.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -482,7 +482,7 @@ const DIRECTORY = {
 	ferociousfeind: {
 		name: "Ferociousfeind",
 		aka: {},
-		avatar: "./avatars/ferociousfeind.png",
+		avatar: "./public/avatars/ferociousfeind.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -495,7 +495,7 @@ const DIRECTORY = {
 	gefullte_taubenbrust: {
 		name: "Gefüllte Taubenbrust",
 		aka: {},
-		avatar: "./avatars/gefullte_taubenbrust.png",
+		avatar: "./public/avatars/gefullte_taubenbrust.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "DE",
@@ -508,7 +508,7 @@ const DIRECTORY = {
 	hecter94: {
 		name: "Hecter94",
 		aka: {},
-		avatar: "./avatars/hecter94.png",
+		avatar: "./public/avatars/hecter94.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "US",
@@ -541,7 +541,7 @@ const DIRECTORY = {
 	hurleveur: {
 		name: "Hurleveur",
 		aka: {},
-		avatar: "./avatars/hurleveur.png",
+		avatar: "./public/avatars/hurleveur.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -555,7 +555,7 @@ const DIRECTORY = {
 	koranir: {
 		name: "Koranir",
 		aka: {},
-		avatar: "./avatars/koranir.png",
+		avatar: "./public/avatars/koranir.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "AU",
@@ -570,7 +570,7 @@ const DIRECTORY = {
 		aka: {
 			github: "Galaucus"
 		},
-		avatar: "./avatars/lake.png",
+		avatar: "./public/avatars/lake.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -584,7 +584,7 @@ const DIRECTORY = {
 	localgod: {
 		name: "LocalGod",
 		aka: {},
-		avatar: "./avatars/localgod.png",
+		avatar: "./public/avatars/localgod.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -599,7 +599,7 @@ const DIRECTORY = {
 		aka: {
 			github: "TheGiraffe3",
 		},
-		avatar: "./avatars/loymdayddaud.png",
+		avatar: "./public/avatars/loymdayddaud.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "SA",
@@ -641,7 +641,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "Græy"
 		},
-		avatar: "./avatars/masterofgrey.png",
+		avatar: "./public/avatars/masterofgrey.png",
 		status: 2,
 		pronouns: "they/them",
 		country: "",
@@ -655,7 +655,7 @@ const DIRECTORY = {
 	midnightplugins: {
 		name: "MidnightPlugins",
 		aka: {},
-		avatar: "./avatars/midnightplugins.png",
+		avatar: "./public/avatars/midnightplugins.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -670,7 +670,7 @@ const DIRECTORY = {
 		aka: {
 			github: "endless-sky"
 		},
-		avatar: "./avatars/mz.png",
+		avatar: "./public/avatars/mz.png",
 		status: 3,
 		pronouns: "he/him",
 		country: "",
@@ -699,7 +699,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "M*C*O"
 		},
-		avatar: "./avatars/mcofficer.png",
+		avatar: "./public/avatars/mcofficer.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -728,7 +728,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "Erun Em-Oc-Ti-Ave of the Humans"
 		},
-		avatar: "./avatars/moctave.png",
+		avatar: "./public/avatars/moctave.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "ca",
@@ -769,7 +769,7 @@ const DIRECTORY = {
 	nana_scone: {
 		name: "Nana",
 		aka: {},
-		avatar: "./avatars/nana_scone.png",
+		avatar: "./public/avatars/nana_scone.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -782,7 +782,7 @@ const DIRECTORY = {
 	petervdmeer: {
 		name: "petervdmeer",
 		aka: {},
-		avatar: "./avatars/petervdmeer.png",
+		avatar: "./public/avatars/petervdmeer.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -795,7 +795,7 @@ const DIRECTORY = {
 	pointedstick: {
 		name: "Pointedstick",
 		aka: {},
-		avatar: "./avatars/pointedstick.png",
+		avatar: "./public/avatars/pointedstick.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -810,7 +810,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "DoomKorath"
 		},
-		avatar: "./avatars/quantumshark.png",
+		avatar: "./public/avatars/quantumshark.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -837,7 +837,7 @@ const DIRECTORY = {
 	quyykk: {
 		name: "quyykk",
 		aka: {},
-		avatar: "./avatars/quyykk.png",
+		avatar: "./public/avatars/quyykk.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -858,7 +858,7 @@ const DIRECTORY = {
 	ravenshining: {
 		name: "ravenshining",
 		aka: {},
-		avatar: "./avatars/ravenshining.png",
+		avatar: "./public/avatars/ravenshining.png",
 		status: 3,
 		pronouns: "she/her",
 		country: "",
@@ -872,7 +872,7 @@ const DIRECTORY = {
 	reticent_rem: {
 		name: "reticent-rem",
 		aka: {},
-		avatar: "./avatars/reticent_rem.png",
+		avatar: "./public/avatars/reticent_rem.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -885,7 +885,7 @@ const DIRECTORY = {
 	risingleaf: {
 		name: "RisingLeaf",
 		aka: {},
-		avatar: "./avatars/risingleaf.png",
+		avatar: "./public/avatars/risingleaf.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -899,7 +899,7 @@ const DIRECTORY = {
 	roadrunner56: {
 		name: "roadrunner56",
 		aka: {},
-		avatar: "./avatars/roadrunner56.png",
+		avatar: "./public/avatars/roadrunner56.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "CA",
@@ -920,7 +920,7 @@ const DIRECTORY = {
 	samrocketman: {
 		name: "samrocketman",
 		aka: {},
-		avatar: "./avatars/samrocketman.png",
+		avatar: "./public/avatars/samrocketman.png",
 		status: 1,
 		pronouns: "they/them",
 		country: "",
@@ -933,7 +933,7 @@ const DIRECTORY = {
 	saugia: {
 		name: "Saugia",
 		aka: {},
-		avatar: "./avatars/saugia.png",
+		avatar: "./public/avatars/saugia.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -947,7 +947,7 @@ const DIRECTORY = {
 	tadrix: {
 		name: "Tadrix",
 		aka: {},
-		avatar: "./avatars/tadrix.png",
+		avatar: "./public/avatars/tadrix.png",
 		status: 1,
 		pronouns: "he/him",
 		country: "",
@@ -960,7 +960,7 @@ const DIRECTORY = {
 	tehhowch: {
 		name: "tehhowch",
 		aka: {},
-		avatar: "./avatars/tehhowch.png",
+		avatar: "./public/avatars/tehhowch.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -973,7 +973,7 @@ const DIRECTORY = {
 	terin: {
 		name: "Terin",
 		aka: {},
-		avatar: "./avatars/terin.png",
+		avatar: "./public/avatars/terin.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -986,7 +986,7 @@ const DIRECTORY = {
 	themarksman: {
 		name: "TheMarksman",
 		aka: {},
-		avatar: "./avatars/themarksman.png",
+		avatar: "./public/avatars/themarksman.png",
 		status: 2,
 		pronouns: "they/them",
 		country: "",
@@ -999,7 +999,7 @@ const DIRECTORY = {
 	thewierdnut: {
 		name: "thewierdnut",
 		aka: {},
-		avatar: "./avatars/thewierdnut.png",
+		avatar: "./public/avatars/thewierdnut.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -1022,7 +1022,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "I touched the images again"
 		},
-		avatar: "./avatars/tibetiroka.png",
+		avatar: "./public/avatars/tibetiroka.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -1037,7 +1037,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "TOMGOO~1.EXE"
 		},
-		avatar: "./avatars/tomgoodidea.png",
+		avatar: "./public/avatars/tomgoodidea.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -1050,7 +1050,7 @@ const DIRECTORY = {
 	w1zrad: {
 		name: "W1zrad",
 		aka: {},
-		avatar: "./avatars/w1zrad.png",
+		avatar: "./public/avatars/w1zrad.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -1063,7 +1063,7 @@ const DIRECTORY = {
 	warlord_mike: {
 		name: "Warlord Mike",
 		aka: {},
-		avatar: "./avatars/warlord_mike.png",
+		avatar: "./public/avatars/warlord_mike.png",
 		status: 2,
 		pronouns: "they/them",
 		country: "",
@@ -1078,7 +1078,7 @@ const DIRECTORY = {
 		aka: {
 			discord: "weft_core"
 		},
-		avatar: "./avatars/warp_core.png",
+		avatar: "./public/avatars/warp_core.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
@@ -1094,7 +1094,7 @@ const DIRECTORY = {
 			name: "Maximilian Korber",
 			discord: "Wurzel",
 		},
-		avatar: "./avatars/wrzlprnft.png",
+		avatar: "./public/avatars/wrzlprnft.png",
 		status: 3,
 		pronouns: "he/him",
 		country: "",
@@ -1107,7 +1107,7 @@ const DIRECTORY = {
 	ziproot: {
 		name: "ziproot",
 		aka: {},
-		avatar: "./avatars/ziproot.png",
+		avatar: "./public/avatars/ziproot.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -1134,7 +1134,7 @@ const DIRECTORY = {
 	zitchas: {
 		name: "Zitchas",
 		aka: {},
-		avatar: "./avatars/zitchas.png",
+		avatar: "./public/avatars/zitchas.png",
 		status: 3,
 		pronouns: "they/them",
 		country: "",
@@ -1150,7 +1150,7 @@ const DIRECTORY = {
 		aka: {
 			github: "AvianGeneticist"
 		},
-		avatar: "./avatars/zoura.png",
+		avatar: "./public/avatars/zoura.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "",
@@ -1163,7 +1163,7 @@ const DIRECTORY = {
 	zuckung: {
 		name: "zuckung",
 		aka: {},
-		avatar: "./avatars/zuckung.png",
+		avatar: "./public/avatars/zuckung.png",
 		status: 0,
 		pronouns: "he/him",
 		country: "DE",
@@ -1455,12 +1455,12 @@ function makeDirectoryCard(obj, id) {
 		if (obj.badges) {
 			for (let badge of obj.badges) {
 				let leaderlessbadge = badge.replace(" lead", "");
-				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="./${leaderlessbadge}.png"/></span>`
+				badges += `<span class="badge" linktip="${BADGE_TOOLTIPS[badge]}"><img src="./public/${leaderlessbadge}.png"/></span>`
 			}
 		}
 
 		if (obj.email) {
-			badges += `<a class="badge" href="mailto:${obj.email}" linktip="Contact by Email"><img src="./email.png" alt="[Email]"/></a>`
+			badges += `<a class="badge" href="mailto:${obj.email}" linktip="Contact by Email"><img src="./public/email.png" alt="[Email]"/></a>`
 		}
 
 		if (obj.discord) {
