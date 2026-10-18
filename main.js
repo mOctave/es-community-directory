@@ -438,7 +438,7 @@ const DIRECTORY = {
 	},
 	// Darcy Manoel
 	darcy_manoel: {
-		name: "Darcy Manoel",
+		name: "Dar",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/darcy_manoel.png",
 		status: 0,
@@ -767,7 +767,7 @@ const DIRECTORY = {
 	},
 	// Nana Scone
 	nana_scone: {
-		name: "Nana Scone",
+		name: "Nana",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/nana_scone.png",
 		status: 0,
