@@ -438,7 +438,7 @@ const DIRECTORY = {
 	},
 	// Darcy Manoel
 	darcy_manoel: {
-		name: "Darcy Manoel",
+		name: "Dar",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/darcy_manoel.png",
 		status: 0,
@@ -514,7 +514,7 @@ const DIRECTORY = {
 		country: "US",
 		github: "https://github.com/Hecter94",
 		roles: ["Community Organizer", "GitHub Admin"],
-		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel and stream archive, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
+		description: `Handles behind-the-scenes admin work and keeps things running smoothly. Manages the YouTube channel, stream archive and both the official and unofficial plugin archives, sends out community surveys, and steps in to help with disputes or crises when they come up.`,
 		quote: `"Friendly but vaguely threatening."`,
 		projects: [
 			{
@@ -767,7 +767,7 @@ const DIRECTORY = {
 	},
 	// Nana Scone
 	nana_scone: {
-		name: "Nana Scone",
+		name: "Nana",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/nana_scone.png",
 		status: 0,
@@ -873,7 +873,7 @@ const DIRECTORY = {
 		name: "reticent-rem",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/reticent_rem.png",
-		status: 0,
+		status: 3,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/reticent-rem",
@@ -921,7 +921,7 @@ const DIRECTORY = {
 		name: "samrocketman",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/samrocketman.png",
-		status: 3,
+		status: 1,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/samrocketman",
@@ -948,7 +948,7 @@ const DIRECTORY = {
 		name: "Tadrix",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tadrix.png",
-		status: 3,
+		status: 1,
 		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/Tadrix",
@@ -974,7 +974,7 @@ const DIRECTORY = {
 		name: "Terin",
 		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/terin.png",
-		status: 3,
+		status: 0,
 		pronouns: "they/them",
 		country: "",
 		github: "https://github.com/Terin",
