@@ -433,7 +433,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/danaris",
 		roles: ["Core Member", "Oathkeeper"],
-		description: `Core member and GitHub moderator who is mainly participates on Discord and rarely appears on GitHub.`,
+		description: `Core member and GitHub moderator who mainly participates on Discord and rarely appears on GitHub.`,
 		quote: `"Please remove all talk of aliens from this channel."`,
 	},
 	// Darcy Manoel
@@ -1013,6 +1013,7 @@ const DIRECTORY = {
 	// tibetiroka
 	tibetiroka: {
 		name: "tibetiroka",
+		aka: {},
 		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/tibetiroka.png",
 		status: 0,
 		pronouns: "they/them",
@@ -1034,7 +1035,7 @@ const DIRECTORY = {
 		country: "",
 		github: "https://github.com/tibetiroka",
 		roles: ["Developer", "Maintainer", "Code Patrol"],
-		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements despite never really touching the images.`,
+		description: `Extremely prolific code dev and reviewer who's responsible for a lot of UI improvements.`,
 		quote: `"Yes."`,
 	},
 	// W1zrad
