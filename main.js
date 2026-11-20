@@ -759,11 +759,11 @@ const DIRECTORY = {
 		discord: "main",
 		badges: ["merchant", "subsidurial"]
 	},
-	// Nana Scone
-	nana_scone: {
+	// Nana
+	nana: {
 		name: "Nana",
 		aka: {},
-		avatar: "./img/avatars/nana_scone.png",
+		avatar: "./img/avatars/nana.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
