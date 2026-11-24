@@ -392,7 +392,7 @@ const DIRECTORY = {
 		aka: {},
 		avatar: "./img/avatars/bobbycobby.png",
 		status: 0,
-		pronouns: "they/them",
+		pronouns: "he/him",
 		country: "",
 		github: "https://github.com/BobbyCobby",
 		roles: ["Merchant"],
