@@ -1201,6 +1201,7 @@ const COUNTRY_FINDER = new Intl.DisplayNames(["en"], { type: "region", style: "s
 let standardFilter = {
 	search_key: "",
 	search_mode: "standard",
+	search_activity_filter: "all",
 	filter_deck: [],
 	match_case: false
 }
@@ -1212,6 +1213,7 @@ window.addEventListener("load", () => {
 	console.log("Page is loaded. Attempting to load directory cards.");
 	document.getElementById("search-field").value = "";
 	document.getElementById("search-mode").value = "standard";
+	document.getElementById("search-activity-filder").value = "all";
 	loadDirectoryCards();
 });
 
@@ -1233,6 +1235,10 @@ document.getElementById("search-mode").addEventListener("input", () => {
 
 document.getElementById("match-case").addEventListener("input", () => {
 	standardFilter.match_case = document.getElementById("match-case").checked;
+});
+
+document.getElementById("search-activity-filter").addEventListener("input", () => {
+	standardFilter.search_activity_filter = document.getElementById("search-activity-filter").value;
 });
 
 
@@ -1369,7 +1375,7 @@ function makeDirectoryCard(obj, id) {
 		if (obj.aka.steam) {
 			akaLabels += `<span class="aka-label"><span class="fa-brands fa-steam"></span>&nbsp;${obj.aka.steam}</span>`;
 		}
-		
+
 		card = card.replaceAll("$AKA-LABELS$", akaLabels);
 
 	} catch {
@@ -1383,7 +1389,7 @@ function makeDirectoryCard(obj, id) {
 		let roleDesc = "";
 		for (role of obj.roles) {
 			const roleClass = ROLE_INFO[role] ? ROLE_INFO[role].class : "other-role";
-			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip 
+			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip
 				: "This role is not properly defined! Please report this bug.";
 			if (!noRoleAdded)
 				roleDesc += " • ";
@@ -1405,7 +1411,7 @@ function makeDirectoryCard(obj, id) {
 		console.warn(`No valid description for "${id}"...`);
 		card = card.replaceAll("$DESCRIPTION$", "A member of the Endless Sky community.");
 	}
-		
+
 
 	// Quote
 	if (obj.quote) {
