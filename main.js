@@ -386,6 +386,22 @@ const DIRECTORY = {
 		description: `The current longest-active writing reviewer and a GitHub moderator. Less involved in the community lately, but shows up every once in a while on both platforms.`,
 		quote: `"I was requested for spelling? Oh my goodness, this needs a rewrite..."`,
 	},
+	// BobbyCobby
+	bobbycobby: {
+		name: "BobbyCobby",
+		aka: {},
+		avatar: "./img/avatars/bobbycobby.png",
+		status: 0,
+		pronouns: "he/him",
+		country: "",
+		github: "https://github.com/BobbyCobby",
+		roles: ["Merchant"],
+		description: `Primarily working on a soundtrack for ES. Also learning content creating and 3D modeling, and a maintainer of this site.`,
+		quote: `"Yep, installing the Korath's largest afterburner on a Navy Carrier definitely makes it faster."`,
+		email: "",
+		discord: "main",
+		badges: ["quarg"],
+	},
 	// Corraban
 	corraban: {
 		name: "Corraban",
@@ -1369,7 +1385,7 @@ function makeDirectoryCard(obj, id) {
 		if (obj.aka.steam) {
 			akaLabels += `<span class="aka-label"><span class="fa-brands fa-steam"></span>&nbsp;${obj.aka.steam}</span>`;
 		}
-		
+
 		card = card.replaceAll("$AKA-LABELS$", akaLabels);
 
 	} catch {
@@ -1383,7 +1399,7 @@ function makeDirectoryCard(obj, id) {
 		let roleDesc = "";
 		for (role of obj.roles) {
 			const roleClass = ROLE_INFO[role] ? ROLE_INFO[role].class : "other-role";
-			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip 
+			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip
 				: "This role is not properly defined! Please report this bug.";
 			if (!noRoleAdded)
 				roleDesc += " • ";
@@ -1405,7 +1421,7 @@ function makeDirectoryCard(obj, id) {
 		console.warn(`No valid description for "${id}"...`);
 		card = card.replaceAll("$DESCRIPTION$", "A member of the Endless Sky community.");
 	}
-		
+
 
 	// Quote
 	if (obj.quote) {
