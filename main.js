@@ -388,52 +388,18 @@ const DIRECTORY = {
 	},
 	// BobbyCobby
 	bobbycobby: {
-		// Your preferred or most common username.
 		name: "BobbyCobby",
-		// If you use significantly different usernames on different platforms,
-		// you can put one or two of them here. Remember to keep it to platforms
-		// on which you actually interact with the ES community.
-		// Recommended maximum of two short usernames or one long one.
 		aka: {},
-		// Your avatar image in the directory.
 		avatar: "./img/avatars/bobbycobby.png",
-		// 0 = Active, 1 = Inactive, 2 = On Hiatus, 3 = Old Member (No longer active)
 		status: 0,
-		// Your preferred pronouns. If you don't care, keep it as they/them.
 		pronouns: "they/them",
-		// The two-letter ISO country code corresponding to the country you live in.
-		// Leave this blank if you don't want that to be public information.
 		country: "",
-		// A link to your GitHub page. Leave blank if you're not on GitHub.
 		github: "https://github.com/BobbyCobby",
-		// Your roles in the community. This will be filled out by the site maintainers.
 		roles: ["Merchant"],
-		// A brief description of what you do in the community.
 		description: `Primarily working on a soundtrack for ES. Also learning content creating and 3D modeling, and a maintainer of this site.`,
 		quote: `"Yep, installing the Korath's largest afterburner on a Navy Carrier definitely makes it faster."`,
-		// A place for you to link some of the ES-related stuff you're known for.
-		// Please do not link to Endless Sky itself, we hopefully all know where to find it.
-		// There's a soft limit of six projects total and three important projects.
-		// Please try to use short names where possible.
-		// "type" may be one of "plugin", "fork", "tool", "document", or "other".
-		// Please arrange your projects in order of their type as shown above.
-		// If you have no projects, please delete this entire key-value pair.
-
-		// If you would like people to contact you by email, you can add your email address
-		// here. Otherwise, leave this entry blank.
 		email: "",
-		// If you would like people to contact you on Discord, name the server where they
-		// can find you here. Otherwise, leave this entry blank.
-		// Should be one of "main", "s6", or "mafia"
 		discord: "main",
-		// Add up to two or three "faction alignment" badges. Names should be lowercase and
-		// match one of the images in the img directory of the repo (see below).
-		// This is purely decorative and absolutely optional.
-		//
-		// alpha | arach | archon | avgi | bunrodea | compass | efret | exile
-		// fw | gegno | hai | heliarch | incipias | ka'het | kimek | merchant
-		// mereti | pirate | pug | quarg | remnant | republic | saryd | sestor
-		// sheragi | subsidurial | successor | syndicate | unfettered | wanderer
 		badges: ["quarg"],
 	},
 	// Corraban
