@@ -1237,8 +1237,8 @@ document.getElementById("match-case").addEventListener("input", () => {
 	standardFilter.match_case = document.getElementById("match-case").checked;
 });
 
-document.getElementById("search-activity-filter").addEventListener("input", () => {
-	standardFilter.search_activity_filter = document.getElementById("search-activity-filter").value;
+document.getElementById("activity-filter").addEventListener("input", () => {
+	standardFilter.search_activity_filter = document.getElementById("activity-filter").value;
 });
 
 
