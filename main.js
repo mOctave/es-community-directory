@@ -1534,6 +1534,29 @@ function matches(entry, filter) {
 				break;
 		}
 
+		switch (filter.activity-filter) {
+			case "any":
+				break;
+			case "active":
+				if (entry.status != 0)
+					search_match = false;
+				break;
+			case "inactive":
+				if (entry.status != 1)
+					search_match = false;
+				break;
+			case "on-hiatus":
+				if (entry.status != 2)
+					search_match = false;
+				break;
+			case "old-member":
+				if (entry.status != 3)
+					search_match = false;
+				break;
+			default:
+				console.warn("Invalid activity filter!");
+				break;
+
 		if (search_match === false)
 			return false;
 	}
