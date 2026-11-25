@@ -87,6 +87,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			</select>
 			<label for="match-case">Match Case</label>
 			<input type="checkbox" id="match-case" class="searchcheckbox" name="match-case" vale="Match Case"/>
+			<label for="activity-filter">Activity Level</label>
+			<select id="activity-filter" name="activity-filter">
+				<option value="any">Any</option>
+				<option value="active">Active</option>
+				<option value="inactive">Inactive</option>
+				<option value="on-hiatus">On Hiatus</option>
+				<option value="old-member">Old Member</option>
+			</select>
 		</div>
 		<button id="search-option-toggle" onclick="toggleSearchOptions()">More Options</button>
 		<hr/>
