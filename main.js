@@ -1490,6 +1490,30 @@ function matches(entry, filter) {
 	if (!filter)
 		return true;
 
+	switch (filter.activity-filter) {
+		case "any":
+			break;
+		case "active":
+			if (entry.status != 0)
+				search_match = false;
+			return false;
+		case "inactive":
+			if (entry.status != 1)
+				search_match = false;
+			return false;
+		case "on-hiatus":
+			if (entry.status != 2)
+				search_match = false;
+			return false;
+		case "old-member":
+			if (entry.status != 3)
+				search_match = false;
+			return false;
+		default:
+			console.warn("Invalid activity filter!");
+			break;
+	}
+	
 	if (filter.search_key) {
 		let search_match = false;
 		const key = searchFormat(filter.search_key);
@@ -1531,30 +1555,6 @@ function matches(entry, filter) {
 				break;
 			default:
 				console.warn("Invalid search mode!");
-				break;
-		}
-
-		switch (filter.activity-filter) {
-			case "any":
-				break;
-			case "active":
-				if (entry.status != 0)
-					search_match = false;
-				break;
-			case "inactive":
-				if (entry.status != 1)
-					search_match = false;
-				break;
-			case "on-hiatus":
-				if (entry.status != 2)
-					search_match = false;
-				break;
-			case "old-member":
-				if (entry.status != 3)
-					search_match = false;
-				break;
-			default:
-				console.warn("Invalid activity filter!");
 				break;
 		}
 
