@@ -1201,7 +1201,7 @@ const COUNTRY_FINDER = new Intl.DisplayNames(["en"], { type: "region", style: "s
 let standardFilter = {
 	search_key: "",
 	search_mode: "standard",
-	search_activity_filter: "all",
+	search_activity_filter: "any",
 	filter_deck: [],
 	match_case: false
 }
@@ -1213,7 +1213,7 @@ window.addEventListener("load", () => {
 	console.log("Page is loaded. Attempting to load directory cards.");
 	document.getElementById("search-field").value = "";
 	document.getElementById("search-mode").value = "standard";
-	document.getElementById("search-activity-filder").value = "all";
+	document.getElementById("search-activity-filter").value = "any";
 	loadDirectoryCards();
 });
 
