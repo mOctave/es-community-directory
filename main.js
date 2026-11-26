@@ -1556,6 +1556,7 @@ function matches(entry, filter) {
 			default:
 				console.warn("Invalid activity filter!");
 				break;
+		}
 
 		if (search_match === false)
 			return false;
