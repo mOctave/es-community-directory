@@ -1567,6 +1567,7 @@ function matches(entry, filter) {
 		default:
 			console.warn("Invalid role filter!");
 			break;
+	}
 
 	switch (filter.activity_filter) {
 		case "any":
