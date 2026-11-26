@@ -1495,7 +1495,7 @@ function matches(entry, filter) {
 	if (!filter)
 		return true;
 
-	switch (filter.role_filter) {
+	switch (filter.role-filter) {
 		case "any":
 			break;
 		case "developer":
