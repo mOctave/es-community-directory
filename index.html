@@ -88,7 +88,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			<label for="match-case">Match Case</label>
 			<input type="checkbox" id="match-case" class="searchcheckbox" name="match-case" vale="Match Case"/>
 			<label for="activity-filter">Activity Level</label>
-			<select id="activity-filter" name="activity-filter">
+			<select id="activity-filter" name="activity-filter" onchange="loadDirectoryCards()">
 				<option value="any">Any</option>
 				<option value="active">Active</option>
 				<option value="inactive">Inactive</option>
