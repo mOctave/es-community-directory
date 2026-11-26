@@ -1490,25 +1490,21 @@ function matches(entry, filter) {
 	if (!filter)
 		return true;
 
-	switch (filter.activity-filter) {
+	switch (filter.activity_filter) {
 		case "any":
 			break;
 		case "active":
 			if (entry.status != 0)
-				search_match = false;
-			return false;
+				return false;
 		case "inactive":
 			if (entry.status != 1)
-				search_match = false;
-			return false;
+				return false;
 		case "on-hiatus":
 			if (entry.status != 2)
-				search_match = false;
-			return false;
+				return false;
 		case "old-member":
 			if (entry.status != 3)
-				search_match = false;
-			return false;
+				return false;
 		default:
 			console.warn("Invalid activity filter!");
 			break;
