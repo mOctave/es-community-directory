@@ -1243,7 +1243,7 @@ document.getElementById("activity-filter").addEventListener("input", () => {
 });
 
 document.getElementById("role-filter").addEventListener("input", () => {
-	standardFilter.activity_filter = document.getElementById("role-filter").value;
+	standardFilter.role_filter = document.getElementById("role-filter").value;
 });
 
 
@@ -1495,7 +1495,7 @@ function matches(entry, filter) {
 	if (!filter)
 		return true;
 
-	switch (filter.role-filter) {
+	switch (filter.role_filter) {
 		case "any":
 			break;
 		case "developer":
