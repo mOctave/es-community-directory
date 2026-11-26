@@ -1201,7 +1201,7 @@ const DIRECTORY = {
 const NULL_CARD = {
 	name: "No Results Found",
 	aka: {},
-	avatar: "",
+	avatar: "./img/avatars/unknown.png",
 	status: 0,
 	pronouns: "n/a",
 	country: "XX",
