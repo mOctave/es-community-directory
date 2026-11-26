@@ -1213,7 +1213,7 @@ window.addEventListener("load", () => {
 	console.log("Page is loaded. Attempting to load directory cards.");
 	document.getElementById("search-field").value = "";
 	document.getElementById("search-mode").value = "standard";
-	document.getElementById("search-activity-filter").value = "any";
+	document.getElementById("activity-filter").value = "any";
 	loadDirectoryCards();
 });
 
