@@ -1201,7 +1201,7 @@ const COUNTRY_FINDER = new Intl.DisplayNames(["en"], { type: "region", style: "s
 let standardFilter = {
 	search_key: "",
 	search_mode: "standard",
-	search_activity_filter: "any",
+	activity_filter: "any",
 	filter_deck: [],
 	match_case: false
 }
@@ -1238,7 +1238,7 @@ document.getElementById("match-case").addEventListener("input", () => {
 });
 
 document.getElementById("activity-filter").addEventListener("input", () => {
-	standardFilter.search_activity_filter = document.getElementById("activity-filter").value;
+	standardFilter.activity_filter = document.getElementById("activity-filter").value;
 });
 
 
