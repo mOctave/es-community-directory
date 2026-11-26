@@ -1202,6 +1202,7 @@ let standardFilter = {
 	search_key: "",
 	search_mode: "standard",
 	activity_filter: "any",
+	role_filter: "any",
 	filter_deck: [],
 	match_case: false
 }
@@ -1239,6 +1240,10 @@ document.getElementById("match-case").addEventListener("input", () => {
 
 document.getElementById("activity-filter").addEventListener("input", () => {
 	standardFilter.activity_filter = document.getElementById("activity-filter").value;
+});
+
+document.getElementById("role-filter").addEventListener("input", () => {
+	standardFilter.activity_filter = document.getElementById("role-filter").value;
 });
 
 
@@ -1490,6 +1495,79 @@ function matches(entry, filter) {
 	if (!filter)
 		return true;
 
+	switch (filter.role_filter) {
+		case "any":
+			break;
+		case "developer":
+			if (!entry.roles.includes("Developer")) return false;
+			break;
+		case "community-organizer":
+			if (!entry.roles.includes("Community Organizer")) return false;
+			break;
+		case "moderator":
+			if (!entry.roles.includes("Moderator")) return false;
+			break;
+		case "reviewer":
+			if (!entry.roles.includes("Reviewer")) return false;
+			break;
+		case "core-member":
+			if (!entry.roles.includes("Core Member")) return false;
+			break;
+		case "privateer-potato":
+			if (!entry.roles.includes("Privateer (Potato)")) return false;
+			break;
+		case "privateer":
+			if (!entry.roles.includes("Privateer")) return false;
+			break;
+		case "merchant":
+			if (!entry.roles.includes("Merchant")) return false;
+			break;
+		case "maintainer":
+			if (!entry.roles.includes("Maintainer")) return false;
+			break;
+		case "oathkeeper":
+			if (!entry.roles.includes("Oathkeeper")) return false;
+			break;
+		case "code-patrol":
+			if (!entry.roles.includes("Code Patrol")) return false;
+			break;
+		case "art-patrol":
+			if (!entry.roles.includes("Art Patrol")) return false;
+			break;
+		case "writing-patrol":
+			if (!entry.roles.includes("Writing Patrol")) return false;
+			break;
+		case "theme-patrol":
+			if (!entry.roles.includes("Theme Patrol")) return false;
+			break;
+		case "balance-patrol":
+			if (!entry.roles.includes("Balance Patrol")) return false;
+			break;
+		case "mission-patrol":
+			if (!entry.roles.includes("Mission Patrol")) return false;
+			break;
+		case "discord-admin":
+			if (!entry.roles.includes("Discord Admin")) return false;
+			break;
+		case "github-admin":
+			if (!entry.roles.includes("GitHub Admin")) return false;
+			break;
+		case "wiki-admin":
+			if (!entry.roles.includes("Wiki Admin")) return false;
+			break;
+		case "android-lead":
+			if (!entry.roles.includes("Android Lead")) return false;
+			break;
+		case "former-member":
+			if (!entry.roles.includes("Former Member")) return false;
+			break;
+		case "original-developer":
+			if (!entry.roles.includes("Original Developer")) return false;
+			break;
+		default:
+			console.warn("Invalid role filter!");
+			break;
+
 	switch (filter.activity_filter) {
 		case "any":
 			break;
@@ -1509,7 +1587,7 @@ function matches(entry, filter) {
 			console.warn("Invalid activity filter!");
 			break;
 	}
-	
+
 	if (filter.search_key) {
 		let search_match = false;
 		const key = searchFormat(filter.search_key);
