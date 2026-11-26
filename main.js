@@ -1494,17 +1494,17 @@ function matches(entry, filter) {
 		case "any":
 			break;
 		case "active":
-			if (entry.status != 0)
-				return false;
+			if (entry.status !== 0) return false;
+			break;
 		case "inactive":
-			if (entry.status != 1)
-				return false;
+			if (entry.status !== 1) return false;
+			break;
 		case "on-hiatus":
-			if (entry.status != 2)
-				return false;
+			if (entry.status !== 2) return false;
+			break;
 		case "old-member":
-			if (entry.status != 3)
-				return false;
+			if (entry.status !== 3) return false;
+			break;
 		default:
 			console.warn("Invalid activity filter!");
 			break;
