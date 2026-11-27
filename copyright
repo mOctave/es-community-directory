@@ -7,115 +7,115 @@ Files: *
 Copyright: mOctave <moctave31415@gmail.com>
 License: AGPL-3+
 
-Files: static/img/*
+Files: img/*
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
- static/img/arach.png
- static/img/compass.png
- static/img/mereti.png
- static/img/kimek.png
- static/img/saryd.png
- static/img/sestor.png
- static/img/wanderer.png
+ img/arach.png
+ img/compass.png
+ img/mereti.png
+ img/kimek.png
+ img/saryd.png
+ img/sestor.png
+ img/wanderer.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser (under the same license).
 
 Files:
- static/img/archon.png
- static/img/fw.png
- static/img/icon.svg
- static/img/merchant.png
- static/img/pirate.png
- static/img/pug.png
+ img/archon.png
+ img/fw.png
+ img/icon.svg
+ img/merchant.png
+ img/pirate.png
+ img/pug.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Becca Tommaso (under the same license).
 
 Files:
- static/img/alpha.png
- static/img/republic.png
+ img/alpha.png
+ img/republic.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Gefüllte Taubenbrust (under the same license).
 
 Files:
- static/img/efret.png
+ img/efret.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Saugia (under the same license).
 
 Files:
- static/img/exile.png
+ img/exile.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser, Red-57, and Lia Gerty (under the same license).
 
 Files:
- static/img/gegno.png
+ img/gegno.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Saugia (under the same license).
 
 Files:
- static/img/hai.png
+ img/hai.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Evan Fluharty (under the same license).
 
 Files:
- static/img/heliarch.png
+ img/heliarch.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Arachi-Lover (under the same license).
 
 Files:
- static/img/incipias.png
+ img/incipias.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Gefüllte Taubenbrust (under the same license).
 
 Files:
- static/img/ka'het.png
- static/img/subsidurial.png
+ img/ka'het.png
+ img/subsidurial.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Becca Tommaso (under the same license).
 
 Files:
- static/img/quarg.png
+ img/quarg.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by 1010todd (under the same license).
 
 Files:
- static/img/remnant.png
+ img/remnant.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Evan Fluharty (under the same license).
 
 Files:
- static/img/remnant.png
+ img/remnant.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Karirawri (under the same license).
 
 Files:
- static/img/successor.png
+ img/successor.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Daeridanii (under the same license).
 
 Files:
- static/img/syndicate.png
+ img/syndicate.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser and Anarchist2 (under the same license).
 
 Files:
- static/img/unfettered.png
+ img/unfettered.png
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 Note: Derived from works by Michael Zahniser, Becca Tommaso, and EjoThims (under the same license).
