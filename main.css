@@ -281,6 +281,15 @@ MARK: Search and Filtering
 	background-color: #4ad;
 }
 
+#jump-to-top {
+	background: none;
+	border: none;
+	color: #48f;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
 #search-option-toggle {
 	background: none;
 	border: none;
