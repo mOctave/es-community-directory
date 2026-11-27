@@ -308,6 +308,26 @@ MARK: Search and Filtering
 	margin-right: 30px;
 }
 
+#activity-filter {
+	height: 30px;
+	padding: 5px;
+	background-color: #ccc;
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+#role-filter {
+	height: 30px;
+	padding: 5px;
+	background-color: #ccc;
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
 .searchcheckbox {
 	height: 24px;
 	width: 24px;

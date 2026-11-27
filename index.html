@@ -87,6 +87,40 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			</select>
 			<label for="match-case">Match Case</label>
 			<input type="checkbox" id="match-case" class="searchcheckbox" name="match-case" vale="Match Case"/>
+			<label for="activity-filter">Activity Level</label>
+			<select id="activity-filter" name="activity-filter" onchange="loadDirectoryCards()">
+				<option value="any">Any</option>
+				<option value="active">Active</option>
+				<option value="inactive">Inactive</option>
+				<option value="on-hiatus">On Hiatus</option>
+				<option value="old-member">Old Member</option>
+			</select>
+			<label for="role-filter">Roles</label>
+			<select id="role-filter" name="role-filter" onchange="loadDirectoryCards()">
+				<option value="any">Any</option>
+				<option value="developer">Developer</option>
+				<option value="community-organizer">Community Organizer</option>
+				<option value="moderator">Moderator</option>
+				<option value="reviewer">Reviewer</option>
+				<option value="core-member">Core Member</option>
+				<option value="privateer-potato">Privateer (Potato)</option>
+				<option value="privateer">Privateer</option>
+				<option value="merchant">Merchant</option>
+				<option value="maintainer">Maintainer</option>
+				<option value="oathkeeper">Oathkeeper</option>
+				<option value="code-patrol">Code Patrol</option>
+				<option value="art-patrol">Art Patrol</option>
+				<option value="writing-patrol">Writing Patrol</option>
+				<option value="theme-patrol">Theme Patrol</option>
+				<option value="balance-patrol">Balance Patrol</option>
+				<option value="mission-patrol">Mission Patrol</option>
+				<option value="discord-admin">Discord Admin</option>
+				<option value="github-admin">GitHub Admin</option>
+				<option value="wiki-admin">Wiki Admin</option>
+				<option value="android-lead">Android Lead</option>
+				<option value="former-member">Former Member</option>
+				<option value="original-developer">Original Developer</option>
+			</select>
 		</div>
 		<button id="search-option-toggle" onclick="toggleSearchOptions()">More Options</button>
 		<hr/>
