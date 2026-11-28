@@ -62,6 +62,16 @@ a:hover {
 	font-style: italic;
 }
 
+.centred-link {
+	background: none;
+	border: none;
+	color: #48f;
+	width: 100%;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	font-size: small;
+}
 
 
 /*
@@ -279,15 +289,6 @@ MARK: Search and Filtering
 
 #search-button:hover {
 	background-color: #4ad;
-}
-
-#search-option-toggle {
-	background: none;
-	border: none;
-	color: #48f;
-	width: 100%;
-	text-align: center;
-	cursor: pointer;
 }
 
 #search-option-toggle:hover {
