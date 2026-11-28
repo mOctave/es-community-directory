@@ -1,5 +1,7 @@
 # Endless Sky Community Directory
 
+*This project was made by humans, not AI agents. The [AI Policy](./AI_POLICY.md) helps enforce that.*
+
 Ever suddenly forget who the person you're talking to is? New to the community and wondering who's who, what happened to MZ (spoiler: he left), and what person or group is in charge of those aliens you love plundering? Check out the directory at https://moctave.github.io/es-community-directory!
 
 ## FAQ
